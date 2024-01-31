@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import breakfast from "../../assets/breakfast (2).png";
 import lunch from "../../assets/lunch.png";
 import evening from "../../assets/burger.png";
@@ -6,9 +6,9 @@ import dinner from "../../assets/dinner.png";
 import call from "../../assets/call-center.gif";
 import email from "../../assets/email.gif";
 const Nav = () => {
-    return (
-        <div>
-            <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white ">
+  return (
+    <div>
+      <div className="bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] text-white ">
         <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
           {/* <img  src={logo} className="w-24" alt="" /> */}
           <div className="grid grid-cols-2 justify-center  p-1  items-center gap-2  ">
@@ -21,7 +21,7 @@ const Nav = () => {
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
-                  Breakfast Time: 7am to 11am
+                  100+ Universities & Institutes
                 </p>
               </div>
             </div>
@@ -47,7 +47,7 @@ const Nav = () => {
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
-                Evening Time: 4pm to 7pm
+                20+ Countries 
                 </p>
               </div>
             </div>
@@ -60,11 +60,10 @@ const Nav = () => {
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
-                Dinner Time: 7pm to 11pm
+                  Dinner Time: 7pm to 11pm
                 </p>
               </div>
             </div>
-            
           </div>
 
           <div className="grid grid-cols-2 justify-items-center items-center gap-12  ">
@@ -74,7 +73,7 @@ const Nav = () => {
             >
               <div>
                 {/* <MdOutlinePhonelinkRing className="text-[10px] lg:text-2xl    " /> */}
-                <img className="w-7 rounded-full" src={call} alt=""/>
+                <img className="w-7 rounded-full" src={call} alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
@@ -99,16 +98,15 @@ const Nav = () => {
                   href="mailto:info@mrs.mrg.com.bd"
                   className="text-[10px] lg:text-xs  	"
                 >
-                  info@tcc.mrg.com.bd
+                  info@edusolutions.mrg.com.bd
                 </a>
               </div>
             </div>
-          
           </div>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Nav;
