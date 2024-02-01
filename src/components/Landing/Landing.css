@@ -170,7 +170,7 @@
         rgba(16, 20, 25, 0.89),
         rgba(0, 9, 10, 0.9)
       ),
-      url("../../assets/bg1.jpg");
+      url("../../assets/landingone.jpg");
     /* background-repeat: no-repeat;
            background-size: cover; */
     height: auto;
@@ -206,7 +206,7 @@
         to left,
         rgba(2, 1, 9, 0.01),
         rgba(3, 3, 3, 0.9)
-      ),url("../../assets/bg2.jpg");
+      ),url("../../assets/2.avif");
     /* background-repeat: no-repeat;
            background-size: cover; */
     height: auto;
