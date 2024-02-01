@@ -111,18 +111,18 @@ const Nav = () => {
         <NavLink
           onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
-          to="/facilities"
+          to="/destination"
         >
-          FACILITIES
+          DESTINATION
         </NavLink>
       </li>
       <li className="nav-item p-2 	list-none">
         <NavLink
           onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
-          to="/offer"
+          to="/blog"
         >
-          OFFER
+          BLOG
         </NavLink>
       </li>
 
@@ -143,6 +143,15 @@ const Nav = () => {
           to="/contact-us"
         >
           CONTACTS
+        </NavLink>
+      </li>
+      <li className="nav-item p-2  	list-none">
+        <NavLink
+          onClick={() => setIsOpen(false)}
+          className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
+          to="/faq"
+        >
+          FAQ
         </NavLink>
       </li>
     </>

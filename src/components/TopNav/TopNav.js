@@ -11,7 +11,7 @@ const TopNav = () => {
           {/* <img  src={logo} className="w-24" alt="" /> */}
           <div className="grid grid-cols-2 justify-center  p-1  items-center gap-2  ">
             <div
-              className="flex items-center font-bold   gap-2"
+              className="flex items-center font-bold    gap-2"
               // style={{ color: "#92468E" }}
             >
               <div className="">
@@ -57,14 +57,33 @@ const TopNav = () => {
             </div>
             <div
               className="flex items-center font-bold    gap-2"
-              // style={{ color: "#92468E" }}
+     
+            >
+              <div>
+            
+              <img src={email} className="w-7 rounded-full" alt="" />
+              </div>
+              <div>
+              <p className="text-[10px] lg:text-xs     	">Email us</p>
+            
+            <a
+              href="mailto:info@mrs.mrg.com.bd"
+              className="text-[10px] lg:text-xs  	"
+            >
+              info@edusolutions.mrg.com.bd
+            </a>
+              </div>
+            </div>
+            {/* <div
+              className="flex items-center font-bold    gap-2"
+              
             >
               <div>
                 <img src={email} className="w-7 rounded-full" alt="" />
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs     	">Email us</p>
-                {/* <p className="text-[10px] lg:text-xs	 	">info@mrs.mrg.com.bd</p> */}
+            
                 <a
                   href="mailto:info@mrs.mrg.com.bd"
                   className="text-[10px] lg:text-xs  	"
@@ -72,7 +91,7 @@ const TopNav = () => {
                   info@edusolutions.mrg.com.bd
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
