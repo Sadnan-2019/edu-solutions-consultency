@@ -8,6 +8,95 @@ const Country = () => {
           <p class="font-sans text-4xl font-bold text-gray-200 max-w-5xl lg:text-7xl lg:pr-24 md:text-6xl">
             Choose Your Destination
           </p>
+    
+
+<div class="container relative z-40 mx-auto mt-12">
+
+    <div class="flex flex-wrap justify-center mx-auto lg:w-full md:w-5/6 xl:shadow-small-blue">
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-portfolio-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    portfolio
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-blog-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    blog
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-ecommerce-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    ecommerce
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-startup-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    startup
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-business-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    business
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-lifestyle-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    lifestyle
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-landing-page-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    landing pages
+                </p>
+            </div>
+        </a>
+
+        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+            <div>
+                <img src="https://redpixelthemes.com/assets/images/icon-health-green.svg" class="block mx-auto"/>
+
+                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                    health
+                </p>
+            </div>
+        </a>
+
+    </div>
+
+</div>
 
           {/* <div class="h-32 md:h-40 bg-white"></div> */}
 
@@ -22,32 +111,14 @@ const Country = () => {
               </p>
               <div class="h-8"></div>
               <div class="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800">
-                <div>
-                  <p class="font-semibold text-gray-400">Made with love</p>
-                  <div class="h-4"></div>
-                  <p class="font-serif text-gray-400">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                    Delectus labor.
-                  </p>
-                </div>
-                <div>
-                  <p class="font-semibold text-gray-400">It's easy to build</p>
-                  <div class="h-4"></div>
-                  <p class="font-serif text-gray-400">
-                    Ipsum dolor sit, amet consectetur adipisicing elit. Delectus
-                    amet consectetur.
-                  </p>
-                </div>
+                 
               </div>
             </div>
-            <div class="-mr-20 p-7 md:rounded-l-full bg-white shadow-md rounded-xl flex items-center justify-center">
-              <p class="text-xl   text-black w-96 h-96">
+            <div class="-mr-20 p-7 md:rounded-l-full bg-gradient-to-b from-gray-900 to-black shadow-md rounded-xl flex items-center justify-center">
+              <p class="text-xl  text-justify text-white w-96  ">
                 Edusolutions stands out as one of the leading and premier
                 education consultancy firms in Bangladesh, specializing in
-                facilitating Study in China, UK, USA, Canada, and Australia.
-                Edusolutions Consaltency serves as a comprehensive platform where students can
-                access information on studying abroad, admissions, scholarships,
-                and financial aid across 200+ universities worldwide. Our
+                facilitating Study in China, UK, USA, Canada, and Australia. Our
                 commitment to supporting and assisting students remains
                 unwavering, ensuring that the choices they make about their
                 future are handled with the utmost care. 
