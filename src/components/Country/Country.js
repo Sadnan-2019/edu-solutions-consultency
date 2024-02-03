@@ -1,4 +1,11 @@
 import React from "react";
+import uk from "../../assets/united-kingdom.png"
+import australia from "../../assets/australia.png"
+import usa from "../../assets/united-states-of-america.png"
+import germany from "../../assets/german.png"
+import japan from "../../assets/japan.png"
+import switzerland from "../../assets/switzerland.png"
+import canada from "../../assets/canada.png"
 
 const Country = () => {
   return (
@@ -8,95 +15,115 @@ const Country = () => {
           <p class="font-sans text-4xl font-bold text-gray-200 max-w-5xl lg:text-7xl lg:pr-24 md:text-6xl">
             Choose Your Destination
           </p>
-    
 
-<div class="container relative z-40 mx-auto mt-12">
+          <div class="container relative z-40 mx-auto mt-12">
+            <div class="flex flex-wrap justify-center mx-auto lg:w-full md:w-5/6 xl:shadow-small-blue">
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src={uk}
+                    class="block mx-auto w-20"
+                  />
 
-    <div class="flex flex-wrap justify-center mx-auto lg:w-full md:w-5/6 xl:shadow-small-blue">
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                   STUDY UK
+                  </p>
+                </div>
+              </a>
 
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-portfolio-green.svg" class="block mx-auto"/>
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src={australia}
+                    class="block mx-auto w-20"
+                  />
 
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    portfolio
-                </p>
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                   STUDY AUSTRALIA
+                  </p>
+                </div>
+              </a>
+
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src={usa}
+                    class="block mx-auto w-20"
+                  />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                    STUDY USA
+                  </p>
+                </div>
+              </a>
+
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src={germany}
+                    class="block mx-auto w-20"
+                  />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                    STUDY GERMANY
+                  </p>
+                </div>
+              </a>
+
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src={japan}
+                    class="block mx-auto w-20"
+                  />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                    STUDY JAPAN
+                  </p>
+                </div>
+              </a>
+
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src={switzerland}
+                    class="block mx-auto w-20"
+                  />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                    STUDY SWITZERLAND
+                  </p>
+                </div>
+              </a>
+
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    alt=""
+                    src={canada}
+                    class="block mx-auto w-20"
+                  />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                  STUDY CANADA
+                  </p>
+                </div>
+              </a>
+
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img
+                    src="https://redpixelthemes.com/assets/images/icon-health-green.svg"
+                    class="block mx-auto"
+                  />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
+                  Other Visa Services
+                  </p>
+                </div>
+              </a>
             </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-blog-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    blog
-                </p>
-            </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-ecommerce-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    ecommerce
-                </p>
-            </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-startup-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    startup
-                </p>
-            </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-business-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    business
-                </p>
-            </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-lifestyle-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    lifestyle
-                </p>
-            </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-landing-page-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    landing pages
-                </p>
-            </div>
-        </a>
-
-        <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
-            <div>
-                <img src="https://redpixelthemes.com/assets/images/icon-health-green.svg" class="block mx-auto"/>
-
-                <p class="pt-4 text-sm font-medium capitalize font-body text-green-900 lg:text-lg md:text-base md:pt-6">
-                    health
-                </p>
-            </div>
-        </a>
-
-    </div>
-
-</div>
+          </div>
 
           {/* <div class="h-32 md:h-40 bg-white"></div> */}
 
@@ -110,9 +137,7 @@ const Country = () => {
                 molestias necessitatibus.
               </p>
               <div class="h-8"></div>
-              <div class="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800">
-                 
-              </div>
+              <div class="grid grid-cols-2 gap-4 pt-8 border-t border-gray-800"></div>
             </div>
             <div class="-mr-20 p-7 md:rounded-l-full bg-gradient-to-b from-gray-900 to-black shadow-md rounded-xl flex items-center justify-center">
               <p class="text-xl  text-justify text-white w-96  ">
@@ -121,12 +146,10 @@ const Country = () => {
                 facilitating Study in China, UK, USA, Canada, and Australia. Our
                 commitment to supporting and assisting students remains
                 unwavering, ensuring that the choices they make about their
-                future are handled with the utmost care. 
+                future are handled with the utmost care.
               </p>
             </div>
           </div>
-
-           
 
           <p class="font-serif text-4xl">
             <span class="text-gray-400">If we work all together</span>
