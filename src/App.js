@@ -5,6 +5,7 @@ import TopNav from './components/TopNav/TopNav';
 import Landing from './components/Landing/Landing';
 import Services from './components/Services/Services';
 import Welcome from './components/Welcome/Welcome';
+import Country from './components/Country/Country';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Landing></Landing>
       <Welcome></Welcome>
       <Services></Services>
+      <Country></Country>
      
     </div>
   );
