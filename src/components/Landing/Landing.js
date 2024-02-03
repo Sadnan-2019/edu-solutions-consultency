@@ -65,7 +65,7 @@ const Landing = () => {
            <div className="full-width-slider">
       {/* <h2> Responsive </h2> */}
       <Slider ref={sliderRef} {...settings} className="">
-        <div className="  ">
+        {/* <div className="  ">
           <section className="  landingone  blog h-auto  bg-gradient-to-r from-[#157A90] via-[#160a2c] to-[#157A90]   text-white">
             <div className="  md:py-20 py-10 lg:py-24 lg:mx-16 mx-8 grid grid-cols-1 lg:grid-cols-1  gap-5 justify-center items-center">
               <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
@@ -219,9 +219,9 @@ const Landing = () => {
               </svg>
             </div>
           </section>
-        </div>
+        </div> */}
         <div className=" ">
-          <section className="landingthree  blog h-auto       ">
+          <section className="landingone  blog h-auto       ">
             <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
               <div class="flex w-full mx-auto text-left">
                 <div class="relative inline-flex items-center mx-auto align-middle">
@@ -229,7 +229,7 @@ const Landing = () => {
                     <h1
                       style={{ lineHeight: "120%" }}
                       className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl    text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  ${
-                        currentSlide === 3 ? "animated" : ""
+                        currentSlide === 0 ? "animated" : ""
                       }`}
                     >
                       Long headline to turn <br class="hidden lg:block" />
@@ -240,7 +240,7 @@ const Landing = () => {
                       <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                         <button
                           class={` slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
-                            currentSlideThree === 3 ? "animatedtext" : ""
+                            currentSlideThree === 0 ? "animatedtext" : ""
                           }`}
                         >
                           See features
@@ -249,7 +249,129 @@ const Landing = () => {
                       <div class="mt-3 rounded-lg sm:mt-0">
                         <button
                           className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                            currentSlideTwo === 3 ? "animatedpic" : ""
+                            currentSlideTwo === 0 ? "animatedpic" : ""
+                          }`}
+                          class=""
+                        >
+                          Get bundle
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <svg
+                className=""
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+              >
+                <path
+                  fill="white"
+                  fill-opacity="50"
+                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+        </div>
+        <div className=" ">
+          <section className="landingtwo  blog h-auto       ">
+            <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+              <div class="flex w-full mx-auto text-left">
+                <div class="relative inline-flex items-center mx-auto align-middle">
+                  <div class="text-center">
+                    <h1
+                      style={{ lineHeight: "120%" }}
+                      className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl    text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  ${
+                        currentSlide === 1 ? "animated" : ""
+                      }`}
+                    >
+                      Long headline to turn <br class="hidden lg:block" />
+                      your visitors into users
+                    </h1>
+
+                    <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+                      <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+                        <button
+                          class={` slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                            currentSlideThree === 1 ? "animatedtext" : ""
+                          }`}
+                        >
+                          See features
+                        </button>
+                      </div>
+                      <div class="mt-3 rounded-lg sm:mt-0">
+                        <button
+                          className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                            currentSlideTwo === 1 ? "animatedpic" : ""
+                          }`}
+                          class=""
+                        >
+                          Get bundle
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <svg
+                className=""
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1440 320"
+              >
+                <path
+                  fill="white"
+                  fill-opacity="50"
+                  d="M0,128L120,160C240,192,480,256,720,272C960,288,1200,256,1320,240L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"
+                ></path>
+              </svg>
+            </div>
+          </section>
+        </div>
+        <div className=" ">
+          <section className="landingthree  blog h-auto       ">
+            <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+              <div class="flex w-full mx-auto text-left">
+                <div class="relative inline-flex items-center mx-auto align-middle">
+                  <div class="text-center">
+                    <h1
+                      style={{ lineHeight: "120%" }}
+                      className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl    text-transparent   bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600  ${
+                        currentSlide === 2 ? "animated" : ""
+                      }`}
+                    >
+                      Long headline to turn <br class="hidden lg:block" />
+                      your visitors into users
+                    </h1>
+
+                    <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
+                      <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
+                        <button
+                          class={` slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
+                            currentSlideThree === 2 ? "animatedtext" : ""
+                          }`}
+                        >
+                          See features
+                        </button>
+                      </div>
+                      <div class="mt-3 rounded-lg sm:mt-0">
+                        <button
+                          className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
+                            currentSlideTwo === 2 ? "animatedpic" : ""
                           }`}
                           class=""
                         >
