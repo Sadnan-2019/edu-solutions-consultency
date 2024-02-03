@@ -1,9 +1,14 @@
 import React, { useState } from "react";
-
+import edu from "../../assets/DDDDE.PNG"
+import "./Welcome.css"
 const Welcome = () => {
   const [currentSlideTwo, setCurrentSlide] = useState(0);
   return (
     <div className="bg-gradient-to-r from-[#3F1825]  via-[#302530] to-[#441B26]">
+   
+
+
+
       <div className=" md:py-20 py-10   hero-content flex-col lg:flex-row-reverse       ">
         <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
           <h2
@@ -24,6 +29,7 @@ const Welcome = () => {
             remains unwavering in our interactions with valued clients and
             partners{" "}
           </h1>
+         
 
           <div className="flex  gap-4 mt-10 text-center">
             <a
@@ -36,10 +42,12 @@ const Welcome = () => {
             </a>
           </div>
         </div>
-
+        <div
+        className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
+      ></div>
         <div class="    text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
           <img
-            src="https://picsum.photos/400/240"
+            src={edu}
             alt=""
             className={`  max-w-sm slide-text p-1   lg:p-2   lg:text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]     border          text-white   ${
               currentSlideTwo === 0 ? "animatedpic" : ""
