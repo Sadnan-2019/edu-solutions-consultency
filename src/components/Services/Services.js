@@ -4,18 +4,12 @@ import eligibilitycheck from "../../assets/eligibility check.png";
 const Services = () => {
   return (
     <div>
-      {/* <div class="card wallet">
-        <div class="overlay"></div>
-        <div class="circle">
-          <img className="" src={eligibilitycheck} alt="" />
-        </div>
-        <p className="text-2xl text-black">Eligibility Check</p>
-      </div> */}
+       
       <section class="py-12 bg-gradient-to-r from-[#3F1825]  via-[#302530] to-[#441B26] text-gray-100 sm:py-12 lg:py-16">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
             <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
-              Our Services
+            Services That We Provide
             </h2>
             <p class="mb-4 text-xl">
               Fulfilling your needs with the utmost precision, we ensure to

@@ -1,15 +1,11 @@
 import React, { useState } from "react";
-import edu from "../../assets/DDDDE.PNG"
-import "./Welcome.css"
+import edu from "../../assets/DDDDE.PNG";
+import "./Welcome.css";
 const Welcome = () => {
   const [currentSlideTwo, setCurrentSlide] = useState(0);
   return (
     <div className="bg-gradient-to-r from-[#3F1825]  via-[#302530] to-[#441B26]">
-   
-
-
-
-      <div className=" md:py-20 py-10   hero-content flex-col lg:flex-row-reverse       ">
+      <div className="    hero-content flex-col lg:flex-row-reverse       ">
         <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
           <h2
             style={{ lineHeight: "120%" }}
@@ -29,39 +25,29 @@ const Welcome = () => {
             remains unwavering in our interactions with valued clients and
             partners{" "}
           </h1>
-         
 
-          <div className="flex  gap-4 mt-10 text-center">
-            <a
-              href="/"
-              className="animated slide-text btn-sm lg:p-2 rounded-full    hover-button bg-gradient-to-r from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white "
-            >
-              <span className="text-sm font-medium"> MORE EXPLORE</span>
-              {/* <BsArrowRight className="text-lg hidden lg:ml-2"
-                       /> */}
-            </a>
+           
+        </div>
+        <div className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+        
+        <div data-aos="fade-left" class="sm:w-1/2 relative mt-10 sm:mt-0">
+            <div class="floating bg-[#1dc151ec] w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
+            <img class="rounded-xl z-40 relative" src={edu} alt="" />
+            <button class="bg-[#ec5342]  w-14 h-14 animate-pulse rounded-full flex items-center justify-center absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 focus:outline-none   transition hover:scale-110 duration-300 ease-in-out z-50">
+              <svg
+                class="w-5 h-5 ml-1"
+                viewBox="0 0 24 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z"
+                  fill="white"
+                />
+              </svg>
+            </button>
+            <div class="bg-[#f7f5f5] w-40 h-40 floating absolute rounded-lg z-10 -bottom-3 -right-3"></div>
           </div>
-        </div>
-        <div
-        className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"
-      ></div>
-        <div class="    text-left md:ml-8 lg:order-1 order-2   lg:mt-0  ">
-          <img
-            src={edu}
-            alt=""
-            className={`  max-w-sm slide-text p-1   lg:p-2   lg:text-lg font-bold  hover-button bg-gradient-to-r from-[#92468E] to-[#38235D]     border          text-white   ${
-              currentSlideTwo === 0 ? "animatedpic" : ""
-            }`}
-          />
-
-          {/* <a
-                    href="/"
-                    
-                  >
-                    MORE EXPLORE
-                    <BsArrowRight className="text-lg   lg:ml-2" />
-                  </a> */}
-        </div>
       </div>
     </div>
   );

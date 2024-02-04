@@ -6,6 +6,7 @@ import Landing from './components/Landing/Landing';
 import Services from './components/Services/Services';
 import Welcome from './components/Welcome/Welcome';
 import Country from './components/Country/Country';
+import Why from './components/Why/Why';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Welcome></Welcome>
       <Services></Services>
       <Country></Country>
+      <Why></Why>
      
     </div>
   );
