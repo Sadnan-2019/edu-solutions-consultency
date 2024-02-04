@@ -8,6 +8,7 @@ import Welcome from './components/Welcome/Welcome';
 import Country from './components/Country/Country';
 import Why from './components/Why/Why';
 import Footer from './components/Footer/Footer';
+import Faq from './components/Faq/Faq';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Services></Services>
       <Country></Country>
       <Why></Why>
+      <Faq></Faq>
       <Footer></Footer>
      
     </div>
