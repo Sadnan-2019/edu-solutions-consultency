@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-// import logo from "../../assets/tcclogo.png";
+import logo from "../../assets/logo.jpeg";
 import { Transition } from "@headlessui/react";
 
 const Nav = () => {
@@ -164,8 +164,8 @@ const Nav = () => {
       <nav className="lg:bg-gray-100 shadow-lg border-l-gray-100 p-4">
         <div className="container mx-auto flex justify-between items-center">
           <div className="text-white font-semibold text-xl">
-            {/* <img src={logo} className="w-24 rounded-lg" alt="" /> */}
-            <p className="text-black">LOGO</p>
+            <img src={logo} className="w-24 rounded-lg" alt="" />
+            {/* <p className="text-black">LOGO</p> */}
           </div>
           <div className="hidden md:flex space-x-4">
             {/* Add other sections here */}

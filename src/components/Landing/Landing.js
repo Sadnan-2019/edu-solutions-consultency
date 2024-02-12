@@ -65,7 +65,7 @@ const Landing = () => {
         {/* <h2> Responsive </h2> */}
         <Slider ref={sliderRef} {...settings} className="">
           <div className=" ">
-            <section className="landingone  blog h-auto       ">
+            <section className="landingone  blog h-auto        ">
               <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
                 <div class="flex w-full mx-auto text-left">
                   <div class="relative inline-flex items-center mx-auto align-middle">

@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <div>
             {/* <!-- component --> */}
-<footer class="footer-1 bg-gradient-to-r from-[#3F1825]  via-[#302530] to-[#441B26] py-8 sm:py-12">
+<footer class="footer-1 bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080c24] py-8 sm:py-12">
   <div class="container mx-auto px-4 text-white">
     <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
       <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">

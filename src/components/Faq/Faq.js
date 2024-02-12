@@ -3,7 +3,7 @@ import React from 'react';
 const Faq = () => {
     return (
         <div>
-            <section class="bg-gradient-to-r from-[#3F1825]  via-[#302530] to-[#441B26] text-gray-100   min-h-screen">
+            <section class="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24] text-gray-100   min-h-screen">
   <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
     <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Frequently Asked Questions</h2>
     <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import uk from "../../assets/united-kingdom.png";
 import australia from "../../assets/australia.png";
 import usa from "../../assets/united-states-of-america.png";
@@ -7,10 +7,26 @@ import japan from "../../assets/japan.png";
 import switzerland from "../../assets/switzerland.png";
 import canada from "../../assets/canada.png";
 import china from "../../assets/china.png";
-
+import "./Country.css"
 const Country = () => {
+
+  // const images = [
+  //   'https://via.placeholder.com/800x400?text=Image+1',
+  //   'https://via.placeholder.com/800x400?text=Image+2',
+  //   'https://via.placeholder.com/800x400?text=Image+3',
+  // ];
+
+  // const [currentImage, setCurrentImage] = useState(0);
+
+  // const nextImage = () => {
+  //   setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
+  // };
+
+  // const prevImage = () => {
+  //   setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
+  // };
   return (
-    <div className="bg-gradient-to-r from-[#3F1825]  via-[#302530] to-[#441B26]">
+    <div className="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24]">
       <body class=" ">
         <div class="text-gray-300 container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12">
           <p class="font-sans text-4xl font-bold text-gray-200 max-w-5xl lg:text-5xl lg:pr-24 md:text-5xl">
@@ -275,6 +291,41 @@ const Country = () => {
           {/* <div class="h-12"></div> */}
         </div>
       </body>
+
+      {/* <div className="relative h-screen overflow-hidden">
+      <div className=" new animation absolute inset-0 overflow-hidden ">
+      
+ 
+        <div className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-150 animation"></div>
+      </div>
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-4xl font-bold">
+     
+        <h1 className="text-center animate__animated animate__fadeInUp">Welcome to my website</h1>
+        <p className="text-center animate__animated animate__fadeInUp mt-4">Explore and enjoy!</p>
+      </div>
+    </div> */}
+
+
+{/* <div className="relative h-screen overflow-hidden">
+    
+      <div className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-150 animation" style={{ backgroundImage: `url(${images[currentImage]})` }}></div>
+      <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-4xl font-bold">
+    
+        <h1 className="text-center animate__animated animate__fadeInUp">Welcome to my website</h1>
+        <p className="text-center animate__animated animate__fadeInUp mt-4">Explore and enjoy!</p>
+      </div>
+      
+      <button className="absolute top-1/2 left-4 transform -translate-y-1/2 px-4 py-2 bg-black bg-opacity-50 text-white rounded" onClick={prevImage}>Prev</button>
+      <button className="absolute top-1/2 right-4 transform -translate-y-1/2 px-4 py-2 bg-black bg-opacity-50 text-white rounded" onClick={nextImage}>Next</button>
+    </div> */}
+
+
+
+
+
+
+
+
     </div>
   );
 };

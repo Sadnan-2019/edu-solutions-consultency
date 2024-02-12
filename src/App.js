@@ -9,6 +9,7 @@ import Country from './components/Country/Country';
 import Why from './components/Why/Why';
 import Footer from './components/Footer/Footer';
 import Faq from './components/Faq/Faq';
+// import LandingNew from './components/Landing/LandingNew';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <TopNav></TopNav>
       <Nav></Nav>
       <Landing></Landing>
+{/* <LandingNew></LandingNew> */}
+
       <Welcome></Welcome>
       <Services></Services>
       <Country></Country>
