@@ -1,5 +1,9 @@
 import React from "react";
-
+import accelerated from "../../assets/acceleration.png"
+import experience from "../../assets/experience.png"
+import transparency from "../../assets/transparency.png"
+import inteligency from "../../assets/inteligency.png"
+import ACCREDITED from "../../assets/ACCREDITED.png"
 const Why = () => {
   return (
     <div className="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24]">
@@ -38,16 +42,7 @@ const Why = () => {
             >
               <div class="py-8   mb-12   border-b  transform transition duration-300 ease-in-out hover:-translate-y-2">
                 <div class="inline-block text-white mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                  </svg>
+                  <img src={accelerated} className="w-20" alt="" />
                 </div>
                 <h3 class="text-xl leading-normal mb-2 font-semibold text-white">
                   {/* Accelerated Handling */}
@@ -73,16 +68,7 @@ const Why = () => {
             >
               <div class="py-8   mb-12   border-b  transform transition duration-300 ease-in-out hover:-translate-y-2">
                 <div class="inline-block text-white mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                  </svg>
+                  <img src={experience} alt="" className="w-20"/>
                 </div>
                 <h3 class="text-xl leading-normal mb-2 font-semibold text-white">
                   EXPERIENCE
@@ -107,16 +93,7 @@ const Why = () => {
             >
               <div class="py-8   mb-12   border-b  transform transition duration-300 ease-in-out hover:-translate-y-2">
                 <div class="inline-block text-white mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                  </svg>
+                  <img src={transparency} className="w-20" alt=""/>
                 </div>
                 <h3 class="text-xl leading-normal mb-2 font-semibold text-white">
                   TRANSPARENCY
@@ -142,16 +119,7 @@ const Why = () => {
             >
               <div class="py-8   mb-12   border-b  transform transition duration-300 ease-in-out hover:-translate-y-2">
                 <div class="inline-block text-white mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                  </svg>
+                  <img src={inteligency} className="w-20" alt=""/>
                 </div>
                 <h3 class="text-xl leading-normal mb-2 font-semibold text-white">
                   INTELLIGENCY AND SKILL
@@ -178,16 +146,7 @@ const Why = () => {
             >
               <div class="py-8   mb-12   border-b  transform transition duration-300 ease-in-out hover:-translate-y-2">
                 <div class="inline-block text-white mb-4">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="2rem"
-                    height="2rem"
-                    fill="currentColor"
-                    class="bi bi-search"
-                    viewBox="0 0 16 16"
-                  >
-                    <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
-                  </svg>
+                  <img src={ACCREDITED} className="w-20" alt="" />
                 </div>
                 <h3 class="text-xl leading-normal mb-2 font-semibold text-white">
                   {/* Accredited Representative */}
