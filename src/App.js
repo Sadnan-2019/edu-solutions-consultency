@@ -9,6 +9,7 @@ import Country from './components/Country/Country';
 import Why from './components/Why/Why';
 import Footer from './components/Footer/Footer';
 import Faq from './components/Faq/Faq';
+import Review from './components/Review/Review';
 // import LandingNew from './components/Landing/LandingNew';
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Services></Services>
       <Country></Country>
       <Why></Why>
+      <Review></Review>
       <Faq></Faq>
       <Footer></Footer>
      

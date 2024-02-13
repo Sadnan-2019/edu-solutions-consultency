@@ -13,8 +13,8 @@ import "./Services.css";
 const Services = () => {
   return (
     <div>
-       
-      <section class="py-12 bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24] text-gray-100 sm:py-12 lg:py-16">
+      
+      <section class="py-12 bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24] text-gray-100 sm:py-12 lg:py-16">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
             <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
@@ -31,8 +31,8 @@ const Services = () => {
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
               <div class="relative overflow-hidden bg-white shadow-md rounded-xl h-full">
-                <div class="p-9">
-                  <img src={discussion} className="w-20" alt=""/>
+                <div class="p-9  ">
+                  <img src={discussion} className="w-20 " alt=""/>
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
                     Free Counselling
                   </h3>

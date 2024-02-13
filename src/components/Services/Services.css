@@ -4,6 +4,21 @@
     /* --text-color-hover: #fff; */
     /* --box-shadow-color: rgba(206, 178, 252, 0.48); */
   }
+
+   
+ 
+ 
+  /* @keyframes pulse {
+    0% {
+      transform: scale(-1);
+    }
+    50% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0);
+    }
+  } */
   
   /* .card {
     width: 220px;

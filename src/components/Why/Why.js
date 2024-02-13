@@ -6,7 +6,7 @@ import inteligency from "../../assets/inteligency.png"
 import ACCREDITED from "../../assets/ACCREDITED.png"
 const Why = () => {
   return (
-    <div className="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24]">
+    <div className="bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24]">
       <div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0  ">
         <div class="container xl:max-w-6xl mx-auto px-4">
           <div class="flex flex-wrap flex-row -mx-4 text-center">

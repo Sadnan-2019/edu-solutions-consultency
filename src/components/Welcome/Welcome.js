@@ -4,7 +4,7 @@ import "./Welcome.css";
 const Welcome = () => {
   const [currentSlideTwo, setCurrentSlide] = useState(0);
   return (
-    <div className="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24]">
+    <div className="bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24]">
       <div className="    hero-content flex-col lg:flex-row-reverse       ">
         <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
           <h2

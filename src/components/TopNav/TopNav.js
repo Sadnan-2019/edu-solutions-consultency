@@ -11,7 +11,7 @@ const TopNav = () => {
     return (
         <div>
              
-      <div className="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24] text-white ">
+      <div className="bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24] text-white ">
       {/* <div className="bg-gradient-to-r from-[#080C24]  via-[#4142FF] to-[#041B24] text-white "> */}
         <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
           {/* <img  src={logo} className="w-24" alt="" /> */}

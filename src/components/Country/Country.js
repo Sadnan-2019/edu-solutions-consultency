@@ -26,7 +26,7 @@ const Country = () => {
   //   setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
   // };
   return (
-    <div className="bg-gradient-to-r from-[#080C24] via-[#4142FF] to-[#080C24] via-[#00395D] to-[#080C24]">
+    <div className="bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24]">
       <body class=" ">
         <div class="text-gray-300 container mx-auto p-8 overflow-hidden md:rounded-lg md:p-10 lg:p-12">
           <p class="font-sans text-4xl font-bold text-gray-200 max-w-5xl lg:text-5xl lg:pr-24 md:text-5xl">
