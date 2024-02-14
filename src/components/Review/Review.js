@@ -1,4 +1,5 @@
 import React from "react";
+import Marquee from "react-fast-marquee";
 
 const Review = () => {
   return (
@@ -18,7 +19,7 @@ const Review = () => {
               </p>
             </div>
           </div>
-
+          {/* <Marquee   gradientColor={false} speed={80} gradient={false} play={true}> */}
           <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
             <ul class="space-y-8">
               <li class="text-sm leading-6">
@@ -373,6 +374,7 @@ const Review = () => {
               </li>
             </ul>
           </div>
+         
         </div>
       </section>
     </div>
