@@ -29,7 +29,7 @@ const LandingNew = () => {
         fade: true, // To achieve fade transition between slides
       };
     return (
-        <div className="relative">
+        <div className=" ">
       <style>{`
         .zoom {
           animation-name: zoom;

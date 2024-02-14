@@ -4,9 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import "./Landing.css";
 import "animate.css";
-import tetimonial from "../../assets/testimonial1.png";
+// import tetimonial from "../../assets/testimonial1.png";
 
-import { BsArrowRight } from "react-icons/bs";
+// import { BsArrowRight } from "react-icons/bs";
 const Landing = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [currentSlideTwo, setCurrentSlideTwo] = useState(0);
@@ -62,7 +62,7 @@ const Landing = () => {
   return (
     <div>
       <div className="full-width-slider">
-        {/* <h2> Responsive </h2> */}
+    
         <Slider ref={sliderRef} {...settings} className="">
           <div className=" ">
             <section className="landingone  blog h-auto        ">

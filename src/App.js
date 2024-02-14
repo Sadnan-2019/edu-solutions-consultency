@@ -11,6 +11,8 @@ import Footer from './components/Footer/Footer';
 import Faq from './components/Faq/Faq';
 import Review from './components/Review/Review';
 import Contact from './components/Contact/Contact';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home/Home';
 // import LandingNew from './components/Landing/LandingNew';
 
 function App() {
@@ -18,16 +20,14 @@ function App() {
     <div className=" ">
       <TopNav></TopNav>
       <Nav></Nav>
-      <Landing></Landing>
-{/* <LandingNew></LandingNew> */}
-
-      <Welcome></Welcome>
-      <Services></Services>
-      <Country></Country>
-      <Why></Why>
-      <Review></Review>
-      <Faq></Faq>
-      <Contact></Contact>
+      <Routes>
+      <Route path="/" element={<Home />}></Route>
+        <Route path="/home" element={<Home />}></Route>
+      
+        
+         
+      
+      </Routes>
       <Footer></Footer>
      
     </div>
