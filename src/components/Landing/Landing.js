@@ -66,9 +66,9 @@ const Landing = () => {
         <Slider ref={sliderRef} {...settings} className="">
           <div className=" ">
             <section className="landingone  blog h-auto        ">
-              <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
                 <div class="flex w-full mx-auto text-left">
-                  <div class="relative inline-flex items-center mx-auto align-middle">
+                  <div class="  inline-flex items-center mx-auto align-middle">
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
@@ -128,9 +128,9 @@ const Landing = () => {
           </div>
           <div className=" ">
             <section className="landingtwo  blog h-auto       ">
-              <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
                 <div class="flex w-full mx-auto text-left">
-                  <div class="relative inline-flex items-center mx-auto align-middle">
+                  <div class="  inline-flex items-center mx-auto align-middle">
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}
@@ -190,9 +190,9 @@ const Landing = () => {
           </div>
           <div className=" ">
             <section className="landingthree  blog h-auto       ">
-              <div class="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
                 <div class="flex w-full mx-auto text-left">
-                  <div class="relative inline-flex items-center mx-auto align-middle">
+                  <div class="  inline-flex items-center mx-auto align-middle">
                     <div class="text-center">
                       <h1
                         style={{ lineHeight: "120%" }}

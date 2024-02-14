@@ -10,6 +10,7 @@ import Why from './components/Why/Why';
 import Footer from './components/Footer/Footer';
 import Faq from './components/Faq/Faq';
 import Review from './components/Review/Review';
+import Contact from './components/Contact/Contact';
 // import LandingNew from './components/Landing/LandingNew';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Why></Why>
       <Review></Review>
       <Faq></Faq>
+      <Contact></Contact>
       <Footer></Footer>
      
     </div>
