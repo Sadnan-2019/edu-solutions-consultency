@@ -21,13 +21,13 @@ const Review = () => {
             </p>
           </div>
         </div>
-        <Marquee gradientColor={false} speed={80} gradient={false}  >
-          <div class="max-w-6xl mx-8 md:mx-10 lg:mx-20 xl:mx-auto">
+        <Marquee gradientColor={false} speed={80} gradient={false}>
+          <div class=" ">
             {/* <Marquee   gradientColor={false} speed={80} gradient={false} play={true}> */}
-            <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+            <div class="flex  ">
               <div
                 // style="box-shadow:0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1)"
-                class="bg-gradient-to-r from-[#155B59] via-[#080C24] to-[#0F1528]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
+                class="mx-5  bg-gradient-to-r from-[#155B59] via-[#080C24] to-[#0F1528]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
               >
                 <div class="flex flex-col px-6 pt-8  space-y-5">
                   <svg
@@ -60,21 +60,25 @@ const Review = () => {
                     </a> */}
                   </p>
                 </div>
-           
-                  <div class="flex justify-between items-center px-5 py-5">
-                 <div>
-                  <p class="font-display text-base text-white">Sheryl Berge</p>
-                </div>
-                <div class="overflow-hidden rounded-full ">
-                  <img alt="" class="h-14 w-14 object-cover bg-transparent"  src="https://randomuser.me/api/portraits/men/15.jpg"/>
-                </div>
-               
+
+                <div class="flex justify-between items-center px-5 py-5">
+                  <div>
+                    <p class="font-display text-base text-white">
+                      Sheryl Berge
+                    </p>
                   </div>
-                
+                  <div class="overflow-hidden rounded-full ">
+                    <img
+                      alt=""
+                      class="h-14 w-14 object-cover bg-transparent"
+                      src="https://randomuser.me/api/portraits/men/15.jpg"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 // style="box-shadow:0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1)"
-                class="bg-gradient-to-r from-[#5E371A] via-[#080C24] to-[#1A0D18]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
+                class="mx-5  bg-gradient-to-r from-[#5E371A] via-[#080C24] to-[#1A0D18]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
               >
                 <div class="flex flex-col px-6 pt-8  space-y-5">
                   <svg
@@ -107,21 +111,25 @@ const Review = () => {
                     </a> */}
                   </p>
                 </div>
-           
-                  <div class="flex justify-between items-center px-5 py-5">
-                 <div>
-                  <p class="font-display text-base text-white">Sheryl Berge</p>
-                </div>
-                <div class="overflow-hidden rounded-full ">
-                  <img alt="" class="h-14 w-14 object-cover bg-transparent"  src="https://randomuser.me/api/portraits/men/15.jpg"/>
-                </div>
-               
+
+                <div class="flex justify-between items-center px-5 py-5">
+                  <div>
+                    <p class="font-display text-base text-white">
+                      Sheryl Berge
+                    </p>
                   </div>
-                
+                  <div class="overflow-hidden rounded-full ">
+                    <img
+                      alt=""
+                      class="h-14 w-14 object-cover bg-transparent"
+                      src="https://randomuser.me/api/portraits/men/15.jpg"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 // style="box-shadow:0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1)"
-                class="bg-gradient-to-r from-[#680C68] via-[#080C24] to-[#150620]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
+                class="mx-5  bg-gradient-to-r from-[#680C68] via-[#080C24] to-[#150620]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
               >
                 <div class="flex flex-col px-6 pt-8  space-y-5">
                   <svg
@@ -154,21 +162,25 @@ const Review = () => {
                     </a> */}
                   </p>
                 </div>
-           
-                  <div class="flex justify-between items-center px-5 py-5">
-                 <div>
-                  <p class="font-display text-base text-white">Sheryl Berge</p>
-                </div>
-                <div class="overflow-hidden rounded-full ">
-                  <img alt="" class="h-14 w-14 object-cover bg-transparent"  src="https://randomuser.me/api/portraits/men/15.jpg"/>
-                </div>
-               
+
+                <div class="flex justify-between items-center px-5 py-5">
+                  <div>
+                    <p class="font-display text-base text-white">
+                      Sheryl Berge
+                    </p>
                   </div>
-                
+                  <div class="overflow-hidden rounded-full ">
+                    <img
+                      alt=""
+                      class="h-14 w-14 object-cover bg-transparent"
+                      src="https://randomuser.me/api/portraits/men/15.jpg"
+                    />
+                  </div>
+                </div>
               </div>
               <div
                 // style="box-shadow:0px 2px 4px rgba(0, 0, 0, 0.06), 0px 4px 6px rgba(0, 0, 0, 0.1)"
-                class="bg-gradient-to-r from-[#114718] via-[#051431] to-[#013125]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
+                class="mx-5  bg-gradient-to-r from-[#114718] via-[#051431] to-[#013125]    flex flex-col max-w-md align-center justify-between border border-solid border-gray-200 dark:border-dark    rounded-xl"
               >
                 <div class="flex flex-col px-6 pt-8  space-y-5">
                   <svg
@@ -201,17 +213,21 @@ const Review = () => {
                     </a> */}
                   </p>
                 </div>
-           
-                  <div class="flex justify-between items-center px-5 py-5">
-                 <div>
-                  <p class="font-display text-base text-white">Sheryl Berge</p>
-                </div>
-                <div class="overflow-hidden rounded-full ">
-                  <img alt="" class="h-14 w-14 object-cover bg-transparent"  src="https://randomuser.me/api/portraits/men/15.jpg"/>
-                </div>
-               
+
+                <div class="flex justify-between items-center px-5 py-5">
+                  <div>
+                    <p class="font-display text-base text-white">
+                      Sheryl Berge
+                    </p>
                   </div>
-                
+                  <div class="overflow-hidden rounded-full ">
+                    <img
+                      alt=""
+                      class="h-14 w-14 object-cover bg-transparent"
+                      src="https://randomuser.me/api/portraits/men/15.jpg"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
