@@ -150,7 +150,7 @@ const Landing = () => {
                               currentSlideThree === 0 ? "animatedtext" : ""
                             }`}
                           >
-                            See features
+                            Explore More
                           </button>
                         </div>
                         <div class="mt-3 rounded-lg sm:mt-0">
@@ -160,7 +160,7 @@ const Landing = () => {
                             }`}
                             class=""
                           >
-                            Get bundle
+                            Get opportunities
                           </button>
                         </div>
                       </div>
@@ -212,7 +212,7 @@ const Landing = () => {
                               currentSlideThree === 1 ? "animatedtext" : ""
                             }`}
                           >
-                            See features
+                            Explor More
                           </button>
                         </div>
                         <div class="mt-3 rounded-lg sm:mt-0">
@@ -222,7 +222,7 @@ const Landing = () => {
                             }`}
                             class=""
                           >
-                            Get bundle
+                            Get Opportunities
                           </button>
                         </div>
                       </div>
