@@ -64,7 +64,7 @@ const Landing = () => {
       <div className="full-width-slider">
     
         <Slider ref={sliderRef} {...settings} className="">
-          <div className=" ">
+          {/* <div className=" ">
             <section className="landingone  blog h-auto        ">
               <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
                 <div class="flex w-full mx-auto text-left">
@@ -125,7 +125,7 @@ const Landing = () => {
                 </svg>
               </div>
             </section>
-          </div>
+          </div> */}
           <div className=" ">
             <section className="landingtwo  blog h-auto       ">
               <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
@@ -135,7 +135,7 @@ const Landing = () => {
                       <h1
                         style={{ lineHeight: "120%" }}
                         className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl    text-transparent  text-white ${
-                          currentSlide === 1 ? "animated" : ""
+                          currentSlide === 0 ? "animated" : ""
                         }`}
                       >
                         Map your route to success with us{" "}
@@ -147,7 +147,7 @@ const Landing = () => {
                         <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                           <button
                             class={` slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
-                              currentSlideThree === 1 ? "animatedtext" : ""
+                              currentSlideThree === 0 ? "animatedtext" : ""
                             }`}
                           >
                             See features
@@ -156,7 +156,7 @@ const Landing = () => {
                         <div class="mt-3 rounded-lg sm:mt-0">
                           <button
                             className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                              currentSlideTwo === 1 ? "animatedpic" : ""
+                              currentSlideTwo === 0 ? "animatedpic" : ""
                             }`}
                             class=""
                           >
@@ -197,7 +197,7 @@ const Landing = () => {
                       <h1
                         style={{ lineHeight: "120%" }}
                         className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl    text-transparent   text-white ${
-                          currentSlide === 2 ? "animated" : ""
+                          currentSlide === 1 ? "animated" : ""
                         }`}
                       >
                         Offering comprehensive solutions for
@@ -209,7 +209,7 @@ const Landing = () => {
                         <div class="mt-3 rounded-lg sm:mt-0 sm:ml-3">
                           <button
                             class={` slide-text items-center block px-5 lg:px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 ${
-                              currentSlideThree === 2 ? "animatedtext" : ""
+                              currentSlideThree === 1 ? "animatedtext" : ""
                             }`}
                           >
                             See features
@@ -218,7 +218,7 @@ const Landing = () => {
                         <div class="mt-3 rounded-lg sm:mt-0">
                           <button
                             className={`slide-text px-5 py-4 text-base font-medium text-center  transition duration-500 ease-in-out transform  lg:px-10 rounded-xl hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500 from-[#92468E] to-[#38235D] inline-flex  md:inline-flex items-center     border          text-white   ${
-                              currentSlideTwo === 2 ? "animatedpic" : ""
+                              currentSlideTwo === 1 ? "animatedpic" : ""
                             }`}
                             class=""
                           >

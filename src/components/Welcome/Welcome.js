@@ -22,7 +22,7 @@ const Welcome = () => {
             We provide prospective students worldwide with high-quality and
             professional University Admission services. Our commitment
             to the highest level of integrity, transparency, and fair practice
-            remains unwavering in our interactions with valued clients and
+            remains unwavering in our interactions with valued students and
             partners{" "}
           </h1>
 
