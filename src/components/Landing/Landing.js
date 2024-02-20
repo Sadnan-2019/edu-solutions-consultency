@@ -30,7 +30,7 @@ const Landing = () => {
     // afternewChange: (index) => {
     //   setCurrentSlideTwo(index);
     // },
-    autoplay: "true",
+    // autoplay: "true",
     autoplaySpeed: 3000,
     responsive: [
       {
@@ -138,9 +138,9 @@ const Landing = () => {
                           currentSlide === 1 ? "animated" : ""
                         }`}
                       >
-                        Carve your route to success with{" "}
-                        <br class="hidden lg:block" />
-                        the assistance of our services.
+                        Map your route to success with us{" "}
+                        {/* <br class="hidden lg:block" /> */}
+                        {/* the assistance of our services. */}
                       </h1>
 
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">
@@ -202,7 +202,7 @@ const Landing = () => {
                       >
                         Offering comprehensive solutions for
                         <br class="hidden lg:block" />
-                        international education needs.
+                        international & national  education needs.
                       </h1>
 
                       <div class="flex justify-center w-full max-w-2xl gap-2 mx-auto mt-6">

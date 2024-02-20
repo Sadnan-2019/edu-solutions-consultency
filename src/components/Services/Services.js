@@ -19,10 +19,10 @@ const Services = () => {
             <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
               Services That We Provide
             </h2>
-            <p class="mb-4 text-xl">
+            {/* <p class="mb-4 text-xl">
               Fulfilling your needs with the utmost precision, we ensure to
               deliver the finest results possible
-            </p>
+            </p> */}
           </div>
           <div class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
             <div class="relative">
@@ -35,25 +35,49 @@ const Services = () => {
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
                     Free Counselling
                   </h3>
-                  <p class="mt-6 text-base text-black">
+                  {/* <p class="mt-6 text-base text-black">
                     Our expert counselors, all graduates of UK Universities,USA
                     Universities, offer complimentary counseling services to our
                     students.
-                  </p>
+                  </p> */}
                 </div>
+              </div>
+            </div>
+            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+              <div class="p-9">
+                <img src={eligibility} className="w-20" alt="" />
+                <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
+                  Eligibility Check
+                </h3>
+                {/* <p class="mt-6 text-base text-gray-600">
+                  Attach your own custom domain to your published projects or
+                  website on windframe
+                </p> */}
+              </div>
+            </div>
+            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+              <div class="p-9">
+                <img src={interview} className="w-20" alt="" />
+                <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
+                  Interview Preparation
+                </h3>
+                {/* <p class="mt-6 text-base text-gray-600">
+                  Attach your own custom domain to your published projects or
+                  website on windframe
+                </p> */}
               </div>
             </div>
             <div class="overflow-hidden bg-white shadow-md rounded-xl">
               <div class="p-9">
                 <img src={admisstion} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                  Student Admission Services
+                  Student Admission 
                 </h3>
-                <p class="mt-6 text-base text-black">
+                {/* <p class="mt-6 text-base text-black">
                   While our admission services are primarily tailored for
                   international and EU students, we also extend admission
                   support to domestic students with limited alternatives.
-                </p>
+                </p> */}
               </div>
             </div>
             <div class="relative">
@@ -66,10 +90,10 @@ const Services = () => {
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
                     Compliance Assistance
                   </h3>
-                  <p class="mt-6 text-base text-gray-600">
+                  {/* <p class="mt-6 text-base text-gray-600">
                     Our dedicated compliance team is here to assist our students
                     throughout the visa processing journey.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
@@ -77,15 +101,15 @@ const Services = () => {
               <div class="p-9">
                 <img src={motel} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                  Student Accommodation Services
+                  Student Accommodation  
                 </h3>
-                <p class="mt-6 text-base text-gray-600">
+                {/* <p class="mt-6 text-base text-gray-600">
                   Effortlessly publish your webpages online and make it
                   available to the world with a click of a button
-                </p>
+                </p> */}
               </div>
             </div>
-            <div class="relative">
+            {/* <div class="relative">
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
@@ -93,7 +117,7 @@ const Services = () => {
                 <div class="p-9">
                   <img src={university} className="w-20" alt="" />
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                    Partner University Services
+                    Partner University  
                   </h3>
                   <p class="mt-6 text-base text-gray-600">
                     Collect data and information from users with forms built on
@@ -101,54 +125,31 @@ const Services = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             <div class="overflow-hidden bg-white shadow-md rounded-xl">
               <div class="p-9">
                 <img src={visa} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                  Visa Application
+                  Visa Processing
                 </h3>
-                <p class="mt-6 text-base text-gray-600">
+                {/* <p class="mt-6 text-base text-gray-600">
                   Attach your own custom domain to your published projects or
                   website on windframe
-                </p>
+                </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
-              <div class="p-9">
-                <img src={eligibility} className="w-20" alt="" />
-                <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                  Eligibility Check
-                </h3>
-                <p class="mt-6 text-base text-gray-600">
-                  Attach your own custom domain to your published projects or
-                  website on windframe
-                </p>
-              </div>
-            </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
-              <div class="p-9">
-                <img src={interview} className="w-20" alt="" />
-                <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                  Interview Preparation
-                </h3>
-                <p class="mt-6 text-base text-gray-600">
-                  Attach your own custom domain to your published projects or
-                  website on windframe
-                </p>
-              </div>
-            </div>
+            
             <div class="overflow-hidden bg-white shadow-md rounded-xl">
               <div class="p-9">
                 <img src={scholarship} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
                   Scholarship
                 </h3>
-                <p class="mt-6 text-base text-gray-600">
+                {/* <p class="mt-6 text-base text-gray-600">
                   Attach your own custom domain to your published projects or
                   website on windframe
-                </p>
+                </p> */}
               </div>
             </div>
           </div>

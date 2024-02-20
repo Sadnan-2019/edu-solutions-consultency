@@ -40,7 +40,7 @@ const Country = () => {
                   <img src={uk} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                    STUDY UK
+                     UK
                   </p>
                 </div>
               </a>
@@ -50,7 +50,7 @@ const Country = () => {
                   <img src={australia} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                    STUDY AUSTRALIA
+                     AUSTRALIA
                   </p>
                 </div>
               </a>
@@ -60,12 +60,12 @@ const Country = () => {
                   <img src={usa} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                    STUDY USA
+                     USA
                   </p>
                 </div>
               </a>
 
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              {/* <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={germany} class="block mx-auto w-20" />
 
@@ -73,19 +73,19 @@ const Country = () => {
                     STUDY GERMANY
                   </p>
                 </div>
-              </a>
+              </a> */}
 
               <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={japan} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                    STUDY JAPAN
+                      JAPAN
                   </p>
                 </div>
               </a>
 
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              {/* <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={switzerland} class="block mx-auto w-20" />
 
@@ -93,19 +93,19 @@ const Country = () => {
                     STUDY SWITZERLAND
                   </p>
                 </div>
-              </a>
+              </a> */}
 
               <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img alt="" src={canada} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                    STUDY CANADA
+                      CANADA
                   </p>
                 </div>
               </a>
 
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              {/* <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={china} class="block mx-auto w-20" />
 
@@ -113,16 +113,15 @@ const Country = () => {
                     STUDY CHINA
                   </p>
                 </div>
-              </a>
+              </a> */}
             </div>
           </div>
 
           {/* <div class="h-32 md:h-40 bg-white"></div> */}
 
-          <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
+          {/* <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-2">
             <div class="flex flex-col justify-center">
-              {/* <h2 class="text-4xl font-bold">Made for devs and designers</h2>
-              <div class="h-6 bg-white"></div> */}
+           
               <p class="font-serif text-xl text-gray-100 md:pr-10">
                 The unwavering determination and contemporary market insights of
                 EDU Solutions team have effectively charted the course for
@@ -132,7 +131,7 @@ const Country = () => {
                 successful future through unparalleled educational consultancy
                 services.
               </p>
-              {/* <div class="h-8 bg-white"></div> */}
+             
               <div class="grid grid-cols-2 gap-4 pt-8 border-t border-white-800 mt-10"></div>
             </div>
             <div class="py-12   -mr-20  md:rounded-l-full bg-gradient-to-b from-gray-900 to-black shadow-md rounded-xl flex items-center justify-center  ">
@@ -145,7 +144,7 @@ const Country = () => {
                 future are handled with the utmost care.
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* <p class="font-serif text-4xl">
             <span class="text-gray-400">If we work all together</span>

@@ -71,7 +71,7 @@ const Why = () => {
                   <img src={experience} alt="" className="w-20"/>
                 </div>
                 <h3 class="text-xl leading-normal mb-2 font-semibold text-white">
-                  EXPERIENCE
+                  ONE STOP SERVICE
                 </h3>
                 <p class="text-white">
                   Our steadfast devotion and unyielding commitment have been

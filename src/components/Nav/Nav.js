@@ -33,10 +33,10 @@ const Nav = () => {
           SERVICES
         </NavLink>
 
-        <ul
+        {/* <ul
           tabIndex={0}
           className=" w-52 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24] bg-opacity-50  z-50     "
-          // style={{ backgroundColor: "#3E84DC" }}
+           
         >
           <li className="nav-item p-2">
             <NavLink
@@ -104,7 +104,7 @@ const Nav = () => {
               Rose Beauty Garden
             </NavLink>
           </li>
-        </ul>
+        </ul> */}
       </li>
 
       <li className="nav-item p-2 	list-none">
