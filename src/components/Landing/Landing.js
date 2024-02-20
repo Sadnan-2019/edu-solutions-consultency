@@ -30,7 +30,7 @@ const Landing = () => {
     // afternewChange: (index) => {
     //   setCurrentSlideTwo(index);
     // },
-    // autoplay: "true",
+    autoplay: "true",
     autoplaySpeed: 3000,
     responsive: [
       {
