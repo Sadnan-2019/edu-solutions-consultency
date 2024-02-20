@@ -66,7 +66,7 @@ const Faq = () => {
               className="collapse collapse-plus  bg-base-100 rounded-box mb-5 "
             >
               <div className="collapse-title text-[18px] lg:text-[20px] font-medium  ">
-                I would like to get all services at home. How is it possible?
+                I would like to get all services FOR Study Abroad. How is it possible?
               </div>
               <div className="collapse-content text-[15px] lg:text-[18px]">
                 <li>Contact us and talk to our expert</li>
@@ -74,7 +74,7 @@ const Faq = () => {
                 <li>Paying for the service</li>
                 <p className="mt-5">
                   Our expert will suggest what is best for your specific needs:
-                  Recovery Program at home or Center based care.
+                  Recovery Program   Center based care.
                 </p>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Faq = () => {
               </div>
               <div className="collapse-content text-[15px] lg:text-[18px]">
                 <p className="mt-5">
-                  Talk to our expert on 01619848555 or visit your nearest HCAH
+                  Talk to our expert on 01619848555 or visit your nearest Edusolutions
                   Care Center
                 </p>
                 <p className="mt-5">
@@ -101,13 +101,12 @@ const Faq = () => {
               className="collapse collapse-plus  bg-base-100 rounded-box mb-5 "
             >
               <div className="collapse-title text-[18px] lg:text-[20px] font-medium  ">
-                Are all your professionals medically trained?
+                Are all your professionals ?
               </div>
               <div className="collapse-content text-[15px] lg:text-[18px]">
                 <p className="mt-5 text-justify">
                   We have certified,registered, and experienced professionals
-                  including doctors,nurses,physiotherapists,caregiver,medical
-                  assistant,medical caregiver.
+                  including .
                 </p>
               </div>
             </div>

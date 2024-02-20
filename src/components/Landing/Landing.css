@@ -127,12 +127,12 @@
     }
   .landingthree {
     background-image:
-    linear-gradient(
+    /* linear-gradient(
         to left,
-        rgba(7, 7, 7, 0.01),
-        rgba(23, 21, 21, 0.212)
-      ), 
-      url("../../assets/landingfive.jpg");
+        rgba(121, 248, 9, 0.01),
+        rgba(233, 15, 15, 0.212)
+      ),  */
+      url("../../assets/landingtwo.jpeg");
     background-repeat: no-repeat;
            background-size: cover;
     height: auto;
