@@ -60,11 +60,10 @@
   .slick-prev,
   .slick-next {
     
-    z-index: 1; /* Place the buttons on top of the slides */
-    /* color: white; */
+    z-index: 1;  
   }
   
-  .slick-prev {
+  /* .slick-prev {
     left: 200px;
    
    
@@ -72,7 +71,7 @@
   
   .slick-next {
     right: 200px;
-  }
+  } */
   
   
   

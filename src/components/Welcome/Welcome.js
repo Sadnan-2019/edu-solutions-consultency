@@ -28,7 +28,7 @@ const Welcome = () => {
 
            
         </div>
-        <div className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div>
+        {/* <div className="inline-block h-[250px] min-h-[1em] w-0.5 self-stretch bg-neutral-100 opacity-100 dark:opacity-50"></div> */}
         
         <div data-aos="fade-left" class="sm:w-1/2 relative mt-10 sm:mt-0">
             <div class="floating bg-[#1dc151ec] w-24 h-24 absolute rounded-lg z-0 -top-3 -left-3"></div>
