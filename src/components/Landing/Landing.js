@@ -127,11 +127,11 @@ const Landing = () => {
             </section>
           </div> */}
           <div className=" ">
-            <section className="landingtwo  blog h-auto       ">
+            <section className="landingtwo  blog h-auto            ">
               <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
                 <div class="flex w-full mx-auto text-left">
                   <div class="  inline-flex items-center mx-auto align-middle">
-                    <div class="text-center">
+                    <div class="text-center"> 
                       <h1
                         style={{ lineHeight: "120%" }}
                         className={`slide-text  max-w-5xl text-2xl font-bold leading-none tracking-tighter  md:text-5xl lg:text-6xl lg:max-w-7xl    text-transparent  text-white ${
@@ -189,8 +189,8 @@ const Landing = () => {
             </section>
           </div>
           <div className=" ">
-            <section className="landingthree  blog h-auto       ">
-              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl lg:py-24">
+            <section className="landingthree  blog h-auto        ">
+              <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl  ">
                 <div class="flex w-full mx-auto text-left">
                   <div class="  inline-flex items-center mx-auto align-middle">
                     <div class="text-center">

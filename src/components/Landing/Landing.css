@@ -1,237 +1,192 @@
- 
-  
-  
-  @keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
   }
-  @-o-keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  50% {
+    opacity: 0;
   }
-  @-moz-keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+  100% {
+    opacity: 1;
   }
-  @-webkit-keyframes flickerAnimation {
-    0% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-    100% {
-      opacity: 1;
-    }
+}
+@-o-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
   }
-   
-  .slick-prev:before,
-  .slick-next:before {
-    -webkit-animation: flickerAnimation 0.5s infinite;
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-moz-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.slick-prev:before,
+.slick-next:before {
+  /* -webkit-animation: flickerAnimation 0.5s infinite;
     -moz-animation: flickerAnimation 0.5s infinite;
     -o-animation: flickerAnimation 0.5s infinite;
-    animation: flickerAnimation 0.5s infinite;
-    color: rgb(225, 222, 234);
-  }
-  
-  
-  /* ////new button place on image  */
-  .slick-prev,
-  .slick-next {
-    
-    z-index: 1;  
-  }
-  
-  /* .slick-prev {
-    left: 200px;
-   
-   
-  }
-  
-  .slick-next {
-    right: 200px;
-  } */
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  .full-width-slider {
-    width: 100%;
-    max-width: 100vw;
-    overflow: hidden;
-    position: relative;
-  }
-  .slider-slide {
-    height: 100vh;
-    
-  }
-  
-  .slide-content {
-   
-    color: #fff;
- 
-  }
- 
-  
+    animation: flickerAnimation 0.5s infinite; */
+  color: rgb(225, 222, 234);
+}
 
-     .landingone {
+/* ////new button place on image  */
+.slick-prev {
+  z-index: 100;
+}
+.slick-next {
+  z-index: 100;
+  width: 100px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  /* right: 100px;
+    float: left; */
+}
+
+.full-width-slider {
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+.slider-slide {
+  height: 100vh;
+}
+
+.slide-content {
+  color: #fff;
+}
+
+/* .landingone {
   
       background-image: linear-gradient(
           to left,
           rgba(2, 1, 9, 0.01),
           rgba(3, 3, 3, 0.9)
         ),url("../../assets/landingtwo.jpeg");
-      /* background-repeat: no-repeat;
-             background-size: cover; */
+      
       height: auto;
       width: 100%;
-      /* background-size: contain; */
+       
       background-size: cover;
     
       background-size: 100% 85%;
     
       background-repeat: no-repeat;
-    }
-  .landingthree {
-    background-image:
-    /* linear-gradient(
-        to left,
-        rgba(121, 248, 9, 0.01),
-        rgba(233, 15, 15, 0.212)
-      ),  */
-      url("../../assets/landingtwo.jpeg");
-    background-repeat: no-repeat;
-           background-size: cover;
-    height: auto;
-    width: 100%;
-    /* background-size: contain; */
-    background-size: cover;
-  
-    background-size: 100% 85%;
-  
-    background-repeat: no-repeat;
-  }
-  .landingtwo {
-    background-image: linear-gradient(
-        to left,
-        rgba(2, 1, 9, 0.01),
-        rgba(3, 3, 3, 0.549)
-      ),
-      url("../../assets/landingthree.jpeg");
-    /* background-repeat: no-repeat;
-           background-size: cover; */
-    height: auto;
-    width: 100%;
-    /* background-size: contain; */
-    background-size: cover;
-  
-    background-size: 100% 85%;
-  
-    background-repeat: no-repeat;
-  }
- 
-  
-  @keyframes fade-in {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-  
-  .slide-text {
+    } */
+.landingthree {
+  background-image: url("../../assets/landingtwo.jpeg");
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-size: 100% 85%;
+}
+.landingtwo {
+  background-image: 
+    url("../../assets/landingthree.jpeg");
+  height: auto;
+  width: 100%;
+  background-size: cover;
+  background-size: 100% 85%;
+  background-repeat: no-repeat;
+}
+
+@keyframes fade-in {
+  from {
     opacity: 0;
+    transform: translateY(-20px);
   }
-  
-  .animated {
+  to {
     opacity: 1;
-  
-    animation: fade-in 1s ease-in-out;
-  
-    animation-duration: 1s;
+    transform: translateY(0);
   }
-  /*  */
-  
-  /* new both side animation */
-  .animatedpic {
+}
+
+.slide-text {
+  opacity: 0;
+}
+
+.animated {
+  opacity: 1;
+
+  animation: fade-in 1s ease-in-out;
+
+  animation-duration: 1s;
+}
+/*  */
+
+/* new both side animation */
+.animatedpic {
+  opacity: 1;
+
+  animation: bounce-in-right 2s ease;
+
+  animation-duration: 1s;
+}
+.animatedtext {
+  opacity: 1;
+
+  animation: fade-in-left 2s ease;
+
+  animation-duration: 1s;
+}
+@keyframes bounce-in-right {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  60% {
     opacity: 1;
-  
-    animation: bounce-in-right 2s ease;
-  
-    animation-duration: 1s;
+    transform: translateX(-30px);
   }
-  .animatedtext {
+  80% {
+    transform: translateX(10px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes animatedtext {
+  0% {
+    opacity: 0;
+    transform: translateX(2000px);
+  }
+  60% {
     opacity: 1;
-  
-    animation: fade-in-left 2s ease;
-  
-    animation-duration: 1s;
+    transform: translateX(-30px);
   }
-  @keyframes bounce-in-right {
-    0% {
-      opacity: 0;
-      transform: translateX(2000px);
-    }
-    60% {
-      opacity: 1;
-      transform: translateX(-30px);
-    }
-    80% {
-      transform: translateX(10px);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  80% {
+    transform: translateX(10px);
   }
-  @keyframes animatedtext {
-    0% {
-      opacity: 0;
-      transform: translateX(2000px);
-    }
-    60% {
-      opacity: 1;
-      transform: translateX(-30px);
-    }
-    80% {
-      transform: translateX(10px);
-    }
-    100% {
-      transform: translateX(0);
-    }
+  100% {
+    transform: translateX(0);
   }
-  
+}
