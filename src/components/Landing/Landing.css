@@ -57,7 +57,7 @@
   z-index: 100;
 }
 .slick-next {
-  z-index: 100;
+  /* z-index: 100; */
   width: 100px;
 }
 
@@ -65,10 +65,7 @@
   left: 10px;
 }
 
-.slick-next {
-  /* right: 100px;
-    float: left; */
-}
+ 
 
 .full-width-slider {
   width: 100%;

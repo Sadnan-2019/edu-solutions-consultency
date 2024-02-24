@@ -35,7 +35,7 @@ const Country = () => {
 
           <div class="container relative z-40 mx-auto  py-12">
             <div class="flex flex-wrap justify-center mx-auto lg:w-full md:w-5/6 xl:shadow-small-blue">
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              <a href="/uk" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={uk} class="block mx-auto w-20" />
 
