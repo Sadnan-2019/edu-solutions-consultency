@@ -250,7 +250,7 @@ const Landing = () => {
             </section>
           </div>
           <div className=" ">
-            <section className="landingthree  blog h-auto        ">
+            <section className="landingone  blog h-auto        ">
               <div class="  items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-16 max-w-7xl  ">
                 <div class="flex w-full mx-auto text-left">
                   <div class="  inline-flex items-center mx-auto align-middle">
