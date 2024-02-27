@@ -4,7 +4,7 @@ import australia from "../../assets/australia.png";
 import usa from "../../assets/united-states-of-america.png";
 import germany from "../../assets/german.png";
 import japan from "../../assets/japan.png";
-import switzerland from "../../assets/switzerland.png";
+import newzealand from "../../assets/newzealand.png";
 import canada from "../../assets/canada.png";
 import china from "../../assets/china.png";
 import "./Country.css"
@@ -101,6 +101,16 @@ const Country = () => {
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
                       CANADA
+                  </p>
+                </div>
+              </a>
+              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+                <div>
+                  <img alt="" src={newzealand} class="block mx-auto w-20" />
+
+                  <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
+                  {/* New Zealand */}
+                  NEW ZEALAND
                   </p>
                 </div>
               </a>
