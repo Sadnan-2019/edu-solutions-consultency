@@ -438,40 +438,51 @@ const Uk = () => {
                 </button>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
-                  target=""
+              <button
+                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
+                  onClick={() => showDiv(2)}
                 >
-                  VISA REQUIREMENTS
-                </a>
+                 VISA REQUIREMENTS
+                </button>
+                 
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
-                  target="_blank"
+              <button
+                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
+                  onClick={() => showDiv(3)}
                 >
-                  {/* Application Procedures */}
                   APPLICATION PROCEDURES
-                </a>
+                </button>
+                {/* <a
+                  href="#"
+                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
+                  target="_blank"
+                > 
+                  APPLICATION PROCEDURES
+                </a> */}
               </li>
               <li>
-                <a
+              <button
+                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
+                  onClick={() => showDiv(4)}
+                >
+                EDUCATIONAL REQUIREMENTS
+                </button>
+                {/* <a
                   href="#"
                   class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
                   target="_blank"
                 >
-                  EDUCATIONAL REQUIREMENTS
-                </a>
+                  
+                </a> */}
               </li>
             </div>
           </nav>
         </div>
       </div>
 
-      <div className="flex flex-col items-center mt-10">
-        <div className="flex space-x-4">
+      <div className="flex flex-col items-center  ">
+        {/* <div className="flex space-x-4">
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
             onClick={() => showDiv(1)}
@@ -491,16 +502,19 @@ const Uk = () => {
             Show Div 3
           </button>
           
-        </div>
-        <div className="mt-4">
+        </div> */}
+        <div className=" ">
           {activeDiv === 1 && (
             <div className="bg-blue-200 p-4 rounded"> <Services></Services></div>
           )}
           {activeDiv === 2 && (
-            <div className="bg-green-200 p-4 rounded">Div 2 Content</div>
+            <div className="bg-green-200 p-4 rounded">VISA REQUIREMENTS</div>
           )}
           {activeDiv === 3 && (
-            <div className="bg-red-200 p-4 rounded">Div 3 Content</div>
+            <div className="bg-red-200 p-4 rounded"> APPLICATION PROCEDURES</div>
+          )}
+          {activeDiv === 4 && (
+            <div className="bg-red-200 p-4 rounded"> EDUCATIONAL REQUIREMENTS</div>
           )}
         </div>
       </div>
