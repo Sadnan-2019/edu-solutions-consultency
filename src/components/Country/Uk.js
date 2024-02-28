@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./Uk.css";
+import Services from "../Services/Services";
 const Uk = () => {
   const [activeDiv, setActiveDiv] = useState(null);
 
@@ -493,7 +494,7 @@ const Uk = () => {
         </div>
         <div className="mt-4">
           {activeDiv === 1 && (
-            <div className="bg-blue-200 p-4 rounded">Div 1 Content</div>
+            <div className="bg-blue-200 p-4 rounded"> <Services></Services></div>
           )}
           {activeDiv === 2 && (
             <div className="bg-green-200 p-4 rounded">Div 2 Content</div>
