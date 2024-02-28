@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Uk.css";
 const Uk = () => {
+  const [activeDiv, setActiveDiv] = useState(null);
+
+  const showDiv = (divId) => {
+    setActiveDiv(divId);
+  };
   return (
     <div>
       <div class="uk py-20">
@@ -363,7 +368,7 @@ const Uk = () => {
                       ></path>
                     </svg>
                     <p class="text-base text-slate-700 sm:text-lg">
-                   University of Birmingham
+                      University of Birmingham
                     </p>
                   </li>
                   <li class="flex">
@@ -383,7 +388,7 @@ const Uk = () => {
                       ></path>
                     </svg>
                     <p class="text-base text-slate-700 sm:text-lg">
-                 University of West London
+                      University of West London
                     </p>
                   </li>
                   <li class="flex">
@@ -403,13 +408,10 @@ const Uk = () => {
                       ></path>
                     </svg>
                     <p class="text-base text-slate-700 sm:text-lg">
-                Manchester Metropolitan University (INTO)
+                      Manchester Metropolitan University (INTO)
                     </p>
                   </li>
                 </ul>
-
-
- 
               </div>
             </div>
           </div>
@@ -417,48 +419,90 @@ const Uk = () => {
       </div>
 
       <div class="px-4 mx-auto max-w-7xl sm:px-6 ">
-    <div class="relative pt-6 pb-16 sm:pb-24 ">
-        <nav class="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center bg-blue-900" aria-label="Global">
-            <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0">
-                
-            </div>
+        <div class="relative pt-6 pb-16 sm:pb-24 ">
+          <nav
+            class="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center bg-blue-900"
+            aria-label="Global"
+          >
+            <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"></div>
             <div class="hidden md:flex md:space-x-10 list-none">
-                <li>
-                    <a href="#" class="text-base font-normal text-white list-none hover:text-gray-900"
-                        target="">INSTITUTIONAL REQUIREMENTS</a>
-                </li>
-                <li>
-                    <a href="#" class="text-base font-normal text-white list-none hover:text-gray-900"
-                        target="">VISA REQUIREMENTS
-                         
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="text-base font-normal text-white list-none hover:text-gray-900"
-                        target="_blank">
-                        PRE-DEPARTURE CHECKLIST
-                      
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="text-base font-normal text-white list-none hover:text-gray-900"
-                        target="_blank">
-                         EDUCATIONAL REQUIREMENTS
-                      
-                    </a>
-                </li>
+              <li>
+                {/* <a href="#" class=" text-lg text-base font-bold text-white list-none hover:text-gray-900"
+                        target="">INSTITUTIONAL REQUIREMENTS</a> */}
+                <button
+                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
+                  onClick={() => showDiv(1)}
+                >
+                  INSTITUTIONAL REQUIREMENTS
+                </button>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
+                  target=""
+                >
+                  VISA REQUIREMENTS
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
+                  target="_blank"
+                >
+                  {/* Application Procedures */}
+                  APPLICATION PROCEDURES
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
+                  target="_blank"
+                >
+                  EDUCATIONAL REQUIREMENTS
+                </a>
+              </li>
             </div>
-            {/* <div class="hidden md:absolute md:flex md:items-center md:justify-end md:inset-y-0 md:right-0">
-                <div class="inline-flex rounded-full shadow">
-                    <div href="#"
-                        class="inline-flex items-center px-4 py-2 text-base text-gray-900 bg-white border border-transparent rounded-full cursor-pointer font-base hover:bg-gray-50 ">
-                        Sign in
-                    </div>
-                </div>
-            </div> */}
-        </nav>
-    </div>
-</div>
+          </nav>
+        </div>
+      </div>
+
+      <div className="flex flex-col items-center mt-10">
+        <div className="flex space-x-4">
+          <button
+            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            onClick={() => showDiv(1)}
+          >
+            Show Div 1
+          </button>
+          <button
+            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+            onClick={() => showDiv(2)}
+          >
+            Show Div 2
+          </button>
+          <button
+            className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
+            onClick={() => showDiv(3)}
+          >
+            Show Div 3
+          </button>
+          
+        </div>
+        <div className="mt-4">
+          {activeDiv === 1 && (
+            <div className="bg-blue-200 p-4 rounded">Div 1 Content</div>
+          )}
+          {activeDiv === 2 && (
+            <div className="bg-green-200 p-4 rounded">Div 2 Content</div>
+          )}
+          {activeDiv === 3 && (
+            <div className="bg-red-200 p-4 rounded">Div 3 Content</div>
+          )}
+        </div>
+      </div>
     </div>
   );
 };
