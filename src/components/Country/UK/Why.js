@@ -1,34 +1,9 @@
-import React, { useState } from "react";
-import "./Uk.css";
-import Services from "../Services/Services";
-const Uk = () => {
-  const [activeDiv, setActiveDiv] = useState(null);
+import React from 'react';
 
-  const showDiv = (divId) => {
-    setActiveDiv(divId);
-  };
-  return (
-    <div>
-      <div class="uk py-20">
-        <div class="container mx-auto">
-          <div class="flex items-center justify-center">
-            <div class="text-center text-white">
-              <h1 class="mb-12 font-serif text-5xl font-bold">
-                Explore UK education opportunities from Bangladesh
-              </h1>
-              {/* <p class="mb-14 text-2xl font- tracking-wide">
-          Boost your brand awareness <br class="sm:hidden" />
-          and reach new customers.
-        </p> */}
-              {/* <a href="#"
-          class="rounded-md bg-white px-6 py-4 text-lg font-semibold text-indigo-600 shadow-sm hover:bg-gray-200 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white/80">Get
-          Started</a> */}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="relative p-4">
+const Why = () => {
+    return (
+        <div>
+            <div class="relative p-4">
         <div class="max-w-3xl mx-auto">
           <div class="mt-3 bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
             <div class="">
@@ -418,108 +393,8 @@ const Uk = () => {
           </div>
         </div>
       </div>
-
-      <div class="px-4 mx-auto max-w-7xl sm:px-6 ">
-        <div class="relative pt-6 pb-16 sm:pb-24 ">
-          <nav
-            class="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center bg-blue-900"
-            aria-label="Global"
-          >
-            <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"></div>
-            <div class="hidden md:flex md:space-x-10 list-none">
-              <li>
-                {/* <a href="#" class=" text-lg text-base font-bold text-white list-none hover:text-gray-900"
-                        target="">INSTITUTIONAL REQUIREMENTS</a> */}
-                <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(1)}
-                >
-                  INSTITUTIONAL REQUIREMENTS
-                </button>
-              </li>
-              <li>
-              <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(2)}
-                >
-                 VISA REQUIREMENTS
-                </button>
-                 
-              </li>
-              <li>
-              <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(3)}
-                >
-                  APPLICATION PROCEDURES
-                </button>
-                {/* <a
-                  href="#"
-                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
-                  target="_blank"
-                > 
-                  APPLICATION PROCEDURES
-                </a> */}
-              </li>
-              <li>
-              <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(4)}
-                >
-                EDUCATIONAL REQUIREMENTS
-                </button>
-                {/* <a
-                  href="#"
-                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
-                  target="_blank"
-                >
-                  
-                </a> */}
-              </li>
-            </div>
-          </nav>
         </div>
-      </div>
-
-      <div className="flex flex-col items-center  ">
-        {/* <div className="flex space-x-4">
-          <button
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-            onClick={() => showDiv(1)}
-          >
-            Show Div 1
-          </button>
-          <button
-            className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-            onClick={() => showDiv(2)}
-          >
-            Show Div 2
-          </button>
-          <button
-            className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded"
-            onClick={() => showDiv(3)}
-          >
-            Show Div 3
-          </button>
-          
-        </div> */}
-        <div className=" ">
-          {activeDiv === 1 && (
-            <div className="bg-blue-200 p-4 rounded"> <Services></Services></div>
-          )}
-          {activeDiv === 2 && (
-            <div className="bg-green-200 p-4 rounded">VISA REQUIREMENTS</div>
-          )}
-          {activeDiv === 3 && (
-            <div className="bg-red-200 p-4 rounded"> APPLICATION PROCEDURES</div>
-          )}
-          {activeDiv === 4 && (
-            <div className="bg-red-200 p-4 rounded"> EDUCATIONAL REQUIREMENTS</div>
-          )}
-        </div>
-      </div>
-    </div>
-  );
+    );
 };
 
-export default Uk;
+export default Why;

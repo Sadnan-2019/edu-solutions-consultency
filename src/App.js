@@ -13,8 +13,9 @@ import Review from './components/Review/Review';
 import Contact from './components/Contact/Contact';
 import { Route, Routes } from 'react-router-dom';
 import Home from './components/Home/Home';
+import Uk from './components/Country/UK/Uk.js';
 // import Uk from './components/Country/Uk';
- import Uk from "./components/Country/Uk.js"
+ 
 // import LandingNew from './components/Landing/LandingNew';
 
 function App() {
