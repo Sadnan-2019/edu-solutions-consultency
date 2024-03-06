@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Services from '../../Services/Services';
+import InstitutionalUk from './InstitutionalUk';
 
 const UkDetails = () => {
 
@@ -74,9 +75,9 @@ const UkDetails = () => {
       <div className="flex flex-col items-center  ">
         <div className=" ">
           {activeDiv === 1 && (
-            <div className="bg-blue-200 p-4 rounded">
+            <div className=" ">
               {" "}
-              <Services></Services>
+              <InstitutionalUk></InstitutionalUk>
             </div>
           )}
           {activeDiv === 2 && (
