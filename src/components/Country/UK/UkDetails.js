@@ -1,76 +1,59 @@
-import React, { useState } from 'react';
-import Services from '../../Services/Services';
-import InstitutionalUk from './InstitutionalUk';
+import React, { useState } from "react";
+// import Services from "../../Services/Services";
+import InstitutionalUk from "./InstitutionalUk";
 
 const UkDetails = () => {
+  const [activeDiv, setActiveDiv] = useState(1);
 
-    const [activeDiv, setActiveDiv] = useState(null);
+  const showDiv = (divId) => {
+    setActiveDiv(divId);
+  };
+  const [showNavbar, setShowNavbar] = useState(false);
 
-    const showDiv = (divId) => {
-      setActiveDiv(divId);
-    };
-    return (
-        <div>
-          <div class="px-4 mx-auto max-w-7xl sm:px-6 ">
-        <div class="relative pt-6 pb-16 sm:pb-24 ">
-          <nav
-            class="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center bg-blue-900"
-            aria-label="Global"
-          >
-            <div class="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"></div>
-            <div class="hidden md:flex md:space-x-10 list-none">
-              <li>
-                {/* <a href="#" class=" text-lg text-base font-bold text-white list-none hover:text-gray-900"
-                        target="">INSTITUTIONAL REQUIREMENTS</a> */}
-                <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(1)}
-                >
-                  INSTITUTIONAL REQUIREMENTS
-                </button>
-              </li>
-              <li>
-                <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(2)}
-                >
-                  VISA REQUIREMENTS
-                </button>
-              </li>
-              <li>
-                <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(3)}
-                >
-                  APPLICATION PROCEDURES
-                </button>
-                {/* <a
-                  href="#"
-                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
-                  target="_blank"
-                > 
-                  APPLICATION PROCEDURES
-                </a> */}
-              </li>
-              <li>
-                <button
-                  className="text-lg   font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded"
-                  onClick={() => showDiv(4)}
-                >
-                  EDUCATIONAL REQUIREMENTS
-                </button>
-                {/* <a
-                  href="#"
-                  class="text-lg  text-base font-bold text-white list-none hover:text-gray-900"
-                  target="_blank"
-                >
-                  
-                </a> */}
-              </li>
-            </div>
-          </nav>
-        </div>
+  const toggleNavbar = () => {
+    setShowNavbar(!showNavbar);
+  };
+
+  return (
+    <div>
+     <div className="px-4 mx-auto max-w-7xl sm:px-6">
+      <div className="relative pt-6 pb-16 sm:pb-24">
+        <nav className="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center bg-blue-900" aria-label="Global">
+          <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"></div>
+          <div className="md:hidden">
+            {/* Hamburger menu button for small screens */}
+            <button className="text-white hover:text-gray-900 focus:outline-none" onClick={toggleNavbar}>
+              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+              </svg>
+            </button>
+          </div>
+          <div className={`md:flex md:space-x-10 list-none ${showNavbar ? '' : 'hidden'}`}>
+            <li>
+              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(1)}>
+                INSTITUTIONAL REQUIREMENTS
+              </button>
+            </li>
+            <li>
+              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(2)}>
+                VISA REQUIREMENTS
+              </button>
+            </li>
+            <li>
+              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(3)}>
+                APPLICATION PROCEDURES
+              </button>
+            </li>
+            <li>
+              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(4)}>
+                EDUCATIONAL REQUIREMENTS
+              </button>
+            </li>
+          </div>
+        </nav>
       </div>
+    </div>
+
 
       <div className="flex flex-col items-center  ">
         <div className=" ">
@@ -96,9 +79,9 @@ const UkDetails = () => {
             </div>
           )}
         </div>
-      </div>  
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default UkDetails;
