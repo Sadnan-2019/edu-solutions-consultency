@@ -6,6 +6,10 @@ import { Transition } from "@headlessui/react";
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const gotoBtn = () => {
+    window.scrollTo({ top: 1200, left: 0, behavior: "smooth" });
+  };
+
   const active =
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-[#215083]  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
 
@@ -29,82 +33,13 @@ const Nav = () => {
       </li>
 
       <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
-        <NavLink className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800">
+        <NavLink
+          className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800"
+          onClick={gotoBtn}
+          to="/home"
+        >
           SERVICES
         </NavLink>
-
-        {/* <ul
-          tabIndex={0}
-          className=" w-52 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24] bg-opacity-50  z-50     "
-           
-        >
-          <li className="nav-item p-2">
-            <NavLink
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
-              }
-              to="/water-lily-hall"
-            >
-              Water Lily Hall
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
-              }
-              to="/orcid-hall"
-            >
-              Orcid Hall
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
-              }
-              to="/sunflower"
-            >
-              Sunflower Residence
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
-              }
-              to="/tgr"
-            >
-              Tulip Garden & Resturent
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
-              }
-              to="/camellia"
-            >
-              Camellia Conference Room
-            </NavLink>
-          </li>
-          <li className="nav-item p-2">
-            <NavLink
-              onClick={() => setIsOpen(false)}
-              className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
-              }
-              to="/rbg"
-            >
-              Rose Beauty Garden
-            </NavLink>
-          </li>
-        </ul> */}
       </li>
 
       <li className="nav-item p-2 	list-none">
