@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 // import Services from "../../Services/Services";
 import InstitutionalUk from "./InstitutionalUk";
+import EducationalUk from "./EducationalUk";
 
 const UkDetails = () => {
   const [activeDiv, setActiveDiv] = useState(1);
@@ -15,10 +16,10 @@ const UkDetails = () => {
   };
 
   return (
-    <div>
-     <div className="px-4 mx-auto max-w-7xl sm:px-6">
+    <div className="bg-gray-500">
+     <div className="px-4 mx-auto max-w-7xl sm:px-6  ">
       <div className="relative pt-6 pb-16 sm:pb-24">
-        <nav className="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center bg-blue-900" aria-label="Global">
+        <nav className="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center  " aria-label="Global">
           <div className="flex items-center flex-1 md:absolute md:inset-y-0 md:left-0"></div>
           <div className="md:hidden">
             {/* Hamburger menu button for small screens */}
@@ -29,9 +30,15 @@ const UkDetails = () => {
             </button>
           </div>
           <div className={`md:flex md:space-x-10 list-none ${showNavbar ? '' : 'hidden'}`}>
+
+          <li>
+              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(4)}>
+                EDUCATIONAL REQUIREMENTS
+              </button>
+            </li>
             <li>
               <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(1)}>
-                INSTITUTIONAL REQUIREMENTS
+                ADMISSION  REQUIREMENTS
               </button>
             </li>
             <li>
@@ -39,23 +46,15 @@ const UkDetails = () => {
                 VISA REQUIREMENTS
               </button>
             </li>
-            <li>
-              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(3)}>
-                APPLICATION PROCEDURES
-              </button>
-            </li>
-            <li>
-              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(4)}>
-                EDUCATIONAL REQUIREMENTS
-              </button>
-            </li>
+            
+           
           </div>
         </nav>
       </div>
     </div>
 
 
-      <div className="flex flex-col items-center  ">
+      <div className="flex flex-col items-center bg-gray-500 ">
         <div className=" ">
           {activeDiv === 1 && (
             <div className=" ">
@@ -73,9 +72,9 @@ const UkDetails = () => {
             </div>
           )}
           {activeDiv === 4 && (
-            <div className="bg-red-200 p-4 rounded">
+            <div className=" p-4 rounded">
               {" "}
-              EDUCATIONAL REQUIREMENTS
+              <EducationalUk></EducationalUk>
             </div>
           )}
         </div>
