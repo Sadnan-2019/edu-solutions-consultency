@@ -41,11 +41,11 @@ const UkDetails = () => {
                 ADMISSION  REQUIREMENTS
               </button>
             </li>
-            <li>
+            {/* <li>
               <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(2)}>
                 VISA REQUIREMENTS
               </button>
-            </li>
+            </li> */}
             
            
           </div>

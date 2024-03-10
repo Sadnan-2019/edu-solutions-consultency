@@ -65,7 +65,7 @@ const Nav = () => {
         <NavLink
           onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal}`)}
-          to="/about-us"
+          to="/about"
         >
           ABOUT US
         </NavLink>
