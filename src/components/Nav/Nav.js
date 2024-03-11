@@ -19,7 +19,7 @@ const Nav = () => {
     "text-white mx-1 font-medium border-b-2 border-white-900 pb-1 bg-white  transition     hover:bg-opacity-40  shadow-md rounded-md px-2  lg:text-blue-800    ";
 
   const dropnormal =
-    "  mx-1 text-white-600 font-medium font-bold focus:text-white p-0 lg:text-white   ";
+    "  mx-1 text-white-600 font-medium font-bold   p-0 lg:text-white   ";
   const navItem = (
     <>
       <li className="nav-item p-2 list-none 	">
@@ -64,7 +64,7 @@ const Nav = () => {
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
+                isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/uk"
             >
@@ -74,7 +74,7 @@ const Nav = () => {
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
+                isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/orcid-hall"
             >
@@ -84,7 +84,7 @@ const Nav = () => {
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
+                isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/sunflower"
             >
@@ -94,7 +94,7 @@ const Nav = () => {
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
+                isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/tgr"
             >
@@ -104,7 +104,7 @@ const Nav = () => {
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
+                isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/camellia"
             >
@@ -114,7 +114,7 @@ const Nav = () => {
           <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
-                isActive ? `${active}` : `${dropnormal}`
+                isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/rbg"
             >

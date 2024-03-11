@@ -9,12 +9,13 @@ import eligibility from "../../assets/task-list.png";
 import interview from "../../assets/interview.png";
 import scholarship from "../../assets/scholarship.png";
 import application  from "../../assets/application.png";
+import airticket  from "../../assets/ticket-flight.png";
 import "./Services.css";
 
 const Services = () => {
   return (
     <div>
-      <section class="py-12 bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24] text-gray-100 sm:py-12 lg:py-16">
+      <section class="py-12 bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f] text-gray-100 sm:py-12 lg:py-16">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
             <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
@@ -38,7 +39,7 @@ Air Ticket Assistance */}
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
-              <div class="relative overflow-hidden bg-white shadow-md rounded-xl h-full">
+              <div class="relative overflow-hidden bg-[#41ffc7] shadow-2xl rounded-xl h-full">
                 <div class="p-9  ">
                   <img src={discussion} className="w-20 " alt="" />
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -52,7 +53,7 @@ Air Ticket Assistance */}
                 </div>
               </div>
             </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#f69595] shadow-md rounded-xl opacity-[2]">
               <div class="p-9">
                 <img src={eligibility} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -64,7 +65,7 @@ Air Ticket Assistance */}
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#f4d847] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={application} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -76,7 +77,7 @@ Air Ticket Assistance */}
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#e585ed] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={scholarship} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -88,7 +89,7 @@ Air Ticket Assistance */}
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#04f571] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={motel} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -101,7 +102,7 @@ Air Ticket Assistance */}
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
-              <div class="relative overflow-hidden bg-white shadow-md rounded-xl h-full">
+              <div class="relative overflow-hidden bg-[#94bbe9] shadow-md rounded-xl h-full">
                 <div class="p-9">
                   <img src={counselling} className="w-20" alt="" />
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -114,22 +115,10 @@ Air Ticket Assistance */}
                 </div>
               </div>
             </div>
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
-              <div class="p-9">
-                <img src={admisstion} className="w-20" alt="" />
-                <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
-                  Student Admission 
-                </h3>
-                {/* <p class="mt-6 text-base text-black">
-                  While our admission services are primarily tailored for
-                  international and EU students, we also extend admission
-                  support to domestic students with limited alternatives.
-                </p> */}
-              </div>
-            </div>
+      
            
             
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#c6dd06] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={interview} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -142,11 +131,23 @@ Air Ticket Assistance */}
               </div>
             </div>
 
-            <div class="overflow-hidden bg-white shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#fb2b75] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={visa} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
                   Visa Processing
+                </h3>
+                {/* <p class="mt-6 text-base text-gray-600">
+                  Attach your own custom domain to your published projects or
+                  website on windframe
+                </p> */}
+              </div>
+            </div>
+            <div class="overflow-hidden bg-[#ff751a] shadow-md rounded-xl">
+              <div class="p-9">
+                <img src={airticket} className="w-20" alt="" />
+                <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
+                Air Ticket Assistance
                 </h3>
                 {/* <p class="mt-6 text-base text-gray-600">
                   Attach your own custom domain to your published projects or
