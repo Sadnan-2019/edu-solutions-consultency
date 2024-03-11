@@ -15,6 +15,9 @@ import "./Services.css";
 const Services = () => {
   return (
     <div>
+
+
+      
       <section class="py-12 bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f] text-gray-100 sm:py-12 lg:py-16">
         <div class="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
           <div class="max-w-xl mx-auto text-center xl:max-w-2xl">
@@ -28,7 +31,7 @@ const Services = () => {
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
-              <div class="relative overflow-hidden bg-[#41ffc7]  shadow-white	 shadow-2xl	rounded-xl h-full">
+              <div class="relative overflow-hidden bg-[#41ffc7]  shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)]	  	rounded-xl h-full">
                 <div class="p-9  ">
                   <img src={discussion} className="w-20 " alt="" />
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
