@@ -30,17 +30,17 @@ const UkDetails = () => {
             </button>
           </div>
           <div className={`md:flex md:space-x-10 list-none ${showNavbar ? '' : 'hidden'}`}>
-
           <li>
-              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(4)}>
-                EDUCATIONAL REQUIREMENTS
-              </button>
-            </li>
-            <li>
               <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(1)}>
                 ADMISSION  REQUIREMENTS
               </button>
             </li>
+          <li>
+              <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(2)}>
+                EDUCATIONAL REQUIREMENTS
+              </button>
+            </li>
+           
             {/* <li>
               <button className="text-lg font-bold text-white list-none hover:text-gray-900 py-2 px-4 rounded" onClick={() => showDiv(2)}>
                 VISA REQUIREMENTS
@@ -62,16 +62,16 @@ const UkDetails = () => {
               <InstitutionalUk></InstitutionalUk>
             </div>
           )}
-          {activeDiv === 2 && (
+          {/* {activeDiv === 2 && (
             <div className="bg-green-200 p-4 rounded">VISA REQUIREMENTS</div>
-          )}
-          {activeDiv === 3 && (
+          )} */}
+          {/* {activeDiv === 3 && (
             <div className="bg-red-200 p-4 rounded">
               {" "}
               APPLICATION PROCEDURES
             </div>
-          )}
-          {activeDiv === 4 && (
+          )} */}
+          {activeDiv === 2 && (
             <div className=" p-4 rounded">
               {" "}
               <EducationalUk></EducationalUk>

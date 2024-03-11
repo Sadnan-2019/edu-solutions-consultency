@@ -21,25 +21,14 @@ const Services = () => {
             <h2 class="text-3xl font-bold leading-tight text-gray-50 sm:text-4xl xl:text-5xl mb-6">
               Our Services
             </h2>
-            {/* <p class="mb-4 text-xl">
-              Fulfilling your needs with the utmost precision, we ensure to
-              deliver the finest results possible
-            </p> */}
-            {/* Free Counseling
-Eligibility Check
-Student Application Support
-Scholarship Assistance
-Student Accommodation Services
-Compliance Guidance
-Visa Processing
-Air Ticket Assistance */}
+           
           </div>
           <div class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
             <div class="relative">
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
-              <div class="relative overflow-hidden bg-[#41ffc7] shadow-2xl rounded-xl h-full">
+              <div class="relative overflow-hidden bg-[#41ffc7]  shadow-white	 shadow-2xl	rounded-xl h-full">
                 <div class="p-9  ">
                   <img src={discussion} className="w-20 " alt="" />
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -53,7 +42,7 @@ Air Ticket Assistance */}
                 </div>
               </div>
             </div>
-            <div class="overflow-hidden bg-[#f69595] shadow-md rounded-xl opacity-[2]">
+            <div class="overflow-hidden bg-[#f69595] shadow-white	 shadow-2xl rounded-xl  *:">
               <div class="p-9">
                 <img src={eligibility} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -65,7 +54,7 @@ Air Ticket Assistance */}
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#f4d847] shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#f4d847] shadow-white	 shadow-2xl rounded-xl">
               <div class="p-9">
                 <img src={application} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -77,7 +66,7 @@ Air Ticket Assistance */}
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#e585ed] shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#e585ed] shadow-[#dd8276e9]		 shadow-2xl rounded-xl">
               <div class="p-9">
                 <img src={scholarship} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -89,7 +78,7 @@ Air Ticket Assistance */}
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#04f571] shadow-md rounded-xl">
+            <div class="overflow-hidden bg-[#04f571] shadow-[#101e17]	 shadow-2xl  rounded-xl">
               <div class="p-9">
                 <img src={motel} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
