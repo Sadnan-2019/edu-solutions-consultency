@@ -42,7 +42,7 @@ const Nav = () => {
         </NavLink>
       </li>
 
-      <li className="nav-item p-2 	list-none">
+      {/* <li className="nav-item p-2 	list-none">
         <NavLink
           onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
@@ -50,6 +50,78 @@ const Nav = () => {
         >
           DESTINATION
         </NavLink>
+      </li> */}
+      <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
+        <NavLink className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800">
+        DESTINATION
+        </NavLink>
+
+        <ul
+          tabIndex={0}
+          className="z-50 w-52 dropdown-content menu p-2 shadow  rounded-box lg:w-52 bg-gradient-to-r from-[#575be8] via-[#160a2c] to-[#38235D] bg-opacity-50     "
+          // style={{ backgroundColor: "#3E84DC" }}
+        >
+          <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/water-lily-hall"
+            >
+             UK
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/orcid-hall"
+            >
+              AUSTRALIA
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/sunflower"
+            >
+              USA
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/tgr"
+            >
+        CANADA
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/camellia"
+            >
+              NEW ZEALAND
+            </NavLink>
+          </li>
+          <li className="nav-item p-2">
+            <NavLink onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${active}` : `${dropnormal}`
+              }
+              to="/rbg"
+            >
+              ROMANIA
+            </NavLink>
+          </li>
+        </ul>
       </li>
       <li className="nav-item p-2 	list-none">
         <NavLink
