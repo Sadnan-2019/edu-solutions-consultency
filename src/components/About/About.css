@@ -1,0 +1,12 @@
+.about{
+    background-image:linear-gradient(
+        to left,
+        rgba(154, 143, 213, 0.01),
+        rgba(0, 9, 10, 0.9)
+      ), url("../../assets/aboutlanding.avif");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 85%;
+  }

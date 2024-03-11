@@ -8,10 +8,7 @@ const About = () => {
             <AboutLanding></AboutLanding>
     
            <div className="bg-gray-100 min-h-screen flex flex-col justify-center items-center">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">About Us</h1>
-        <p className="text-gray-600 mb-8">Learn more about our company</p>
-      </div>
+       
       <div className="relative mt-12">
         <div className="absolute h-32 w-32 rounded-full bg-blue-500 -left-16 -top-32  "></div>
         <div className="absolute h-32 w-32 rounded-full bg-green-500 -right-16 -top-32  "></div>
