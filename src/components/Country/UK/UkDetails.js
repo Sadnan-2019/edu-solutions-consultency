@@ -16,7 +16,7 @@ const UkDetails = () => {
   };
 
   return (
-    <div className="bg-gray-500">
+    <div className="bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
      <div className="px-4 mx-auto max-w-7xl sm:px-6  ">
       <div className="relative pt-6 pb-16 sm:pb-24">
         <nav className="relative flex-row sm:flex-col flex items-center justify-between sm:h-10 md:justify-center  " aria-label="Global">
@@ -54,7 +54,7 @@ const UkDetails = () => {
     </div>
 
 
-      <div className="flex flex-col items-center bg-gray-500 ">
+      <div className="flex flex-col items-center bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
         <div className=" ">
           {activeDiv === 1 && (
             <div className=" ">
