@@ -1,19 +1,17 @@
-import React, { useState } from "react";
-import Services from "../../Services/Services";
-import "./Uk.css";
-import Why from "../../Country/UK/Why";
-import UkDetails from "./UkDetails";
-// import austrtralia from "../../../assets/uk.jpg"
-
-const Uk = () => {
- 
-  return (
-    <div>
-     <div className="relative">
-      <div className="absolute uk inset-0 overflow-hidden">
+import React from 'react';
+import "./Australia.css"
+import austrtralia from "../../../assets/australialanding.avif"
+import landing from "../../../assets/landingsix.jpg"
+const AustraliaLanding = () => {
+    return (
+        <div>
+            
+      
+            <div className="relative">
+      <div className="absolute australia inset-0 overflow-hidden">
         {/* Background image */}
         <img
-          className="absolute uk inset-0 w-full h-full object-cover"
+          className="absolute  inset-0 w-full h-full object-cover"
           // src={austrtralia}
           // alt="Australia Background"
         />
@@ -40,11 +38,8 @@ const Uk = () => {
          
       </div>
     </div>
-      <Why></Why>
-    <UkDetails></UkDetails>
-      
-    </div>
-  );
+        </div>
+    );
 };
 
-export default Uk;
+export default AustraliaLanding;

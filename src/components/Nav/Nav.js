@@ -76,7 +76,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
-              to="/orcid-hall"
+              to="/australia"
             >
               AUSTRALIA
             </NavLink>

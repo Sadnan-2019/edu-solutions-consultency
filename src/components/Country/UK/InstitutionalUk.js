@@ -3,7 +3,7 @@ import React from "react";
 const InstitutionalUk = () => {
   return (
     <div className="">
-      <div class="relative flex min-h-screen flex-col justify-center overflow-hidden   sm:py-12">
+      {/* <div class="relative flex min-h-screen flex-col justify-center overflow-hidden   sm:py-12">
         <div class="w-full items-center mx-auto max-w-screen-lg">
           <div class="group grid w-full sm:grid-cols-1 lg:grid-cols-2">
             <div class="relative flex before:block before:absolute before:h-1/6 before:w-2 before:bg-stone-200 before:top-0 before:right-0 before:rounded-lg  before:transition-all group-hover:before:bg-orange-300 overflow-hidden">
@@ -472,7 +472,35 @@ const InstitutionalUk = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" defaultChecked /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
+<div className="collapse collapse-plus bg-base-200">
+  <input type="radio" name="my-accordion-3" /> 
+  <div className="collapse-title text-xl font-medium">
+    Click to open this one and close others
+  </div>
+  <div className="collapse-content"> 
+    <p>hello</p>
+  </div>
+</div>
     </div>
   );
 };
