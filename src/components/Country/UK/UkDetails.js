@@ -74,7 +74,7 @@ const UkDetails = () => {
         </div>
       </div>
 
-      <div className="flex flex-col items-center bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
+      <div className=" bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
         <div className=" ">
           {activeDiv === 1 && (
             <div className=" ">
