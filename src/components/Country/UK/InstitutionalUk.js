@@ -1,8 +1,119 @@
-import React from "react";
-
+// import React from "react";
+import React, { useState } from "react";
+// import { TECollapse } from "tw-elements-react";
 const InstitutionalUk = () => {
+  // const [isOpen, setIsOpen] = useState(false);
+
+  // const toggleAccordion = () => {
+  //   setIsOpen(!isOpen);
+  // };
+  // const [isOpenNew, setIsOpenNew] = useState(false);
+
+  // const toggleAccordionNew = () => {
+  //   setIsOpenNew(!isOpenNew);
+  // };
+
   return (
     <div className="">
+      {/* <!-- component --> */}
+      {/* <!-- component --> */}
+      <div class="bg-white border border-gray-200 divide-y divide-gray-200 rounded-xl m-12">
+    <details class="p-6 group" open>
+        <summary class="flex items-center justify-between cursor-pointer">
+            <h5 class="text-lg font-medium text-gray-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing?
+            </h5>
+
+            <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </span>
+        </summary>
+
+        <p class="mt-4 leading-relaxed text-gray-700">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
+            molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
+            voluptate dicta quo officiis explicabo consequuntur distinctio corporis
+            earum similique!
+        </p>
+    </details>
+
+    <details class="p-6 group">
+        <summary class="flex items-center justify-between cursor-pointer">
+            <h5 class="text-lg font-medium text-gray-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing?
+            </h5>
+
+            <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </span>
+        </summary>
+
+        <p class="mt-4 leading-relaxed text-gray-700">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
+            molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
+            voluptate dicta quo officiis explicabo consequuntur distinctio corporis
+            earum similique!
+        </p>
+    </details>
+
+    <details class="p-6 group">
+        <summary class="flex items-center justify-between cursor-pointer">
+            <h5 class="text-lg font-medium text-gray-900">
+                Lorem ipsum dolor sit amet consectetur adipisicing?
+            </h5>
+
+            <span class="relative flex-shrink-0 ml-1.5 w-5 h-5">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute inset-0 w-5 h-5 opacity-100 group-open:opacity-0" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    class="absolute inset-0 w-5 h-5 opacity-0 group-open:opacity-100" fill="none" viewBox="0 0 24 24"
+                    stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </span>
+        </summary>
+
+        <p class="mt-4 leading-relaxed text-gray-700">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab hic veritatis
+            molestias culpa in, recusandae laboriosam neque aliquid libero nesciunt
+            voluptate dicta quo officiis explicabo consequuntur distinctio corporis
+            earum similique!
+        </p>
+    </details>
+</div>
+
+ 
+
       {/* <div class="relative flex min-h-screen flex-col justify-center overflow-hidden   sm:py-12">
         <div class="w-full items-center mx-auto max-w-screen-lg">
           <div class="group grid w-full sm:grid-cols-1 lg:grid-cols-2">
@@ -474,33 +585,68 @@ const InstitutionalUk = () => {
         </div>
       </div> */}
 
-<div className="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" defaultChecked /> 
-  <div className="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div className="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div className="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div className="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div className="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
-<div className="collapse collapse-plus bg-base-200">
-  <input type="radio" name="my-accordion-3" /> 
-  <div className="collapse-title text-xl font-medium">
-    Click to open this one and close others
-  </div>
-  <div className="collapse-content"> 
-    <p>hello</p>
-  </div>
-</div>
+      {/* <div className="border rounded overflow-hidden">
+        <button
+          className="w-full flex items-center justify-between bg-gray-200 hover:bg-gray-300 p-3 text-left"
+          onClick={toggleAccordion}
+        >
+          <p className="text-lg font-bold">
+            Documents Required for University Application:
+          </p>{" "}
+          {isOpen ? " " : "  "}
+          <svg
+            className={`w-6 h-6 fill-current text-gray-500 transform ${
+              isOpen ? "rotate-180" : ""
+            }`}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div
+          className={`p-4 bg-white transition-all duration-300 ${
+            isOpen ? "h-auto opacity-100" : "h-0 opacity-0"
+          }`}
+        >
+          
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </div>
+      </div>
+      <div className="border rounded overflow-hidden">
+        <button
+          className="w-full flex items-center justify-between bg-gray-200 hover:bg-gray-300 p-3 text-left"
+          onClick={toggleAccordionNew}
+        >
+          <p className="text-lg font-bold">
+            Documents Required for University Application:
+          </p>{" "}
+          {isOpen ? " " : "  "}
+          <svg
+            className={`w-6 h-6 fill-current text-gray-500 transform ${
+              isOpen ? "rotate-180" : ""
+            }`}
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
+        <div
+          className={`p-4 bg-white transition-all duration-300 ${
+            isOpenNew ? "h-auto opacity-100" : "h-0 opacity-0"
+          }`}
+        >
+     
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat.
+        </div>
+      </div> */}
     </div>
   );
 };
