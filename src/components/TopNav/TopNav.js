@@ -155,10 +155,10 @@ const TopNav = () => {
                 <p className="text-[10px] lg:text-xs     	">Email us</p>
                 {/* <p className="text-[10px] lg:text-xs	 	">info@mrs.mrg.com.bd</p> */}
                 <a
-                  href="mailto:info@mrs.mrg.com.bd"
+                  href="mailto:info@es.mrg.bd.com"
                   className="text-[10px] lg:text-xs  	"
                 >
-                  info@edusolutions.mrg.com.bd
+                  info@es.mrg.bd.com
                 </a>
               </div>
             </div>

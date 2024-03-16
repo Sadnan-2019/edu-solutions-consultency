@@ -96,7 +96,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
-              to="/tgr"
+              to="/canada"
             >
         CANADA
             </NavLink>
