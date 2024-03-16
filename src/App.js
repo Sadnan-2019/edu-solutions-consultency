@@ -15,6 +15,7 @@ import Home from "./components/Home/Home";
 import Uk from "./components/Country/UK/Uk.js";
 import About from "./components/About/About.js";
 import Australia from "./components/Country/Australia/Australia.js";
+import USA from "./components/USA/USA.js";
 // import Uk from './components/Country/Uk';
 
 // import LandingNew from './components/Landing/LandingNew';
@@ -32,6 +33,7 @@ function App() {
         <Route path="/uk" element={<Uk />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/australia" element={<Australia />}></Route>
+        <Route path="/usa" element={<USA />}></Route>
       </Routes>
       <Footer></Footer>
     </div>

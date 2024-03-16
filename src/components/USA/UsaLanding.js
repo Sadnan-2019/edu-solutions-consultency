@@ -1,12 +1,10 @@
-import React from "react";
-import "./Australia.css";
-import austrtralia from "../../../assets/australialanding.avif";
-import landing from "../../../assets/landingsix.jpg";
-const AustraliaLanding = () => {
-  return (
-    <div>
-      <div className="relative">
-        <div className="absolute australia inset-0 overflow-hidden">
+import React from 'react';
+import "./Usa.css"
+const UsaLanding = () => {
+    return (
+        <div>
+             <div className="relative">
+        <div className="absolute usa inset-0 overflow-hidden">
           {/* Background image */}
           <img
             className="absolute  inset-0 w-full h-full object-cover"
@@ -30,7 +28,7 @@ const AustraliaLanding = () => {
           {/* Main content */}
           <h1 className="text-4xl font-bold mb-4">
             {" "}
-            Welcome To United Kingdom{" "}
+            Welcome To United State Of America{" "}
           </h1>
           <p className="text-4xl font-bold mb-4">
             Explore UK education opportunities from Bangladesh
@@ -38,8 +36,8 @@ const AustraliaLanding = () => {
           {/* Image sections */}
         </div>
       </div>
-    </div>
-  );
+        </div>
+    );
 };
 
-export default AustraliaLanding;
+export default UsaLanding;

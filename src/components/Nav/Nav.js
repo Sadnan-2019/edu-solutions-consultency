@@ -86,7 +86,7 @@ const Nav = () => {
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
-              to="/sunflower"
+              to="/usa"
             >
               USA
             </NavLink>
