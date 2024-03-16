@@ -1,23 +1,12 @@
-// import React from "react";
-import React, { useState } from "react";
-// import { TECollapse } from "tw-elements-react";
-const InstitutionalUk = () => {
-  // const [isOpen, setIsOpen] = useState(false);
+import React from 'react';
 
-  // const toggleAccordion = () => {
-  //   setIsOpen(!isOpen);
-  // };
-  // const [isOpenNew, setIsOpenNew] = useState(false);
-
-  // const toggleAccordionNew = () => {
-  //   setIsOpenNew(!isOpenNew);
-  // };
-
-  return (
-    <div className="py-5">
+const InstitutionalAU = () => {
+    return (
+        <div>
+            <div className="py-5">
       {/* <!-- component --> */}
       {/* <!-- component --> */}
-      <div class="grid sm:grid-cols-1 lg:grid-cols-2 border border-gray-200   divide-gray-200 rounded-xl mx-5 ">
+      <div class="grid sm:grid-cols-1 lg:grid-cols-1 border border-gray-200   divide-gray-200 rounded-xl mx-5 ">
         <details class="p-6 group" >
           <summary class="flex items-center justify-center cursor-pointer">
             <h5 class="text-xl font-bold text-white">
@@ -67,7 +56,7 @@ const InstitutionalUk = () => {
                 class="block text-white hover:bg-gray-900 px-2 py-1 rounded"
                 href="#introduction"
               >
-                <span className="font-bold">Passport Scan Copy </span>{" "}
+                <span className="font-bold">All Marksheet & Certificate(in English)(SSC/O Levels to last course taken) </span>{" "}
               </a>
             </li>
             <li className="text-white">
@@ -76,7 +65,7 @@ const InstitutionalUk = () => {
                 href="#getting-started"
               >
                 <span className="font-bold">
-                  Educational Certificates & Marksheet Scans (Originals)
+                  Passport (Validity over 12months)
                 </span>{" "}
               </a>
             </li>
@@ -86,7 +75,7 @@ const InstitutionalUk = () => {
                 href="#getting-started"
               >
                 <span className="font-bold">
-                  Two Academic Reference Letters (For PG)
+                  Two Recent Passport-Size Photo
                 </span>{" "}
               </a>
             </li>
@@ -95,7 +84,7 @@ const InstitutionalUk = () => {
                 class="block text-white hover:bg-gray-900 px-2 py-1 rounded"
                 href="#getting-started"
               >
-                <span className="font-bold">Statement of Purpose</span>{" "}
+                <span className="font-bold">Job Experience Letter(If Any)</span>{" "}
               </a>
             </li>
             <li className="text-white">
@@ -104,17 +93,7 @@ const InstitutionalUk = () => {
                 href="#getting-started"
               >
                 <span className="font-bold">
-                  UKVI/Academic IELTS Certificate Scan (Original)
-                </span>{" "}
-              </a>
-            </li>
-            <li className="text-white">
-              <a
-                class="block text-white hover:bg-gray-900 px-2 py-1 rounded"
-                href="#getting-started"
-              >
-                <span className="font-bold">
-                  Job Experience Letter (if applicable)
+                  Statement Of Purpose (Softcopy by email) 
                 </span>{" "}
               </a>
             </li>
@@ -124,14 +103,24 @@ const InstitutionalUk = () => {
                 href="#getting-started"
               >
                 <span className="font-bold">
-                  Other Supporting Documents (e.g., extracurricular activities)
+                 IELTS score(if avialble)
+                </span>{" "}
+              </a>
+            </li>
+            <li className="text-white">
+              <a
+                class="block text-white hover:bg-gray-900 px-2 py-1 rounded"
+                href="#getting-started"
+              >
+                <span className="font-bold">
+                  Resume
                 </span>{" "}
               </a>
             </li>
           </ul>
         </details>
 
-        <details class="p-6 group">
+        {/* <details class="p-6 group">
           <summary class="flex items-center justify-center cursor-pointer">
             <h5 class="text-xl font-medium text-white">
             Documents Required for Tier 4 Visa Application
@@ -262,10 +251,11 @@ const InstitutionalUk = () => {
 
             </ul>
         
-        </details>
+        </details> */}
       </div>
     </div>
-  );
+        </div>
+    );
 };
 
-export default InstitutionalUk;
+export default InstitutionalAU;
