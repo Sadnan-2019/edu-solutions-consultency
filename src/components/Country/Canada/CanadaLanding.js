@@ -28,7 +28,7 @@ const CanadaLanding = () => {
           {/* Main content */}
           <h1 className="text-4xl font-bold mb-4">
             {" "}
-            Welcome To United Kingdom{" "}
+            Welcome To Canada{" "}
           </h1>
           <p className="text-4xl font-bold mb-4">
             Explore UK education opportunities from Bangladesh

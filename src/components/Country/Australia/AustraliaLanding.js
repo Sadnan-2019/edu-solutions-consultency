@@ -28,10 +28,7 @@ const AustraliaLanding = () => {
         </div>
         <div className="relative z-10 flex flex-col items-center justify-center min-h-screen text-white">
           {/* Main content */}
-          <h1 className="text-4xl font-bold mb-4">
-            {" "}
-            Welcome To United Kingdom{" "}
-          </h1>
+          <h1 className="text-4xl font-bold mb-4"> Welcome To Australia </h1>
           <p className="text-4xl font-bold mb-4">
             Explore UK education opportunities from Bangladesh
           </p>
