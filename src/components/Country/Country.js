@@ -3,13 +3,12 @@ import uk from "../../assets/united-kingdom.png";
 import australia from "../../assets/australia.png";
 import usa from "../../assets/united-states-of-america.png";
 import germany from "../../assets/german.png";
-import japan from "../../assets/japan.png";
+import japan from "../../assets/dubai.png";
 import newzealand from "../../assets/newzealand.png";
 import canada from "../../assets/canada.png";
 import china from "../../assets/china.png";
-import "./Country.css"
+import "./Country.css";
 const Country = () => {
-
   // const images = [
   //   'https://via.placeholder.com/800x400?text=Image+1',
   //   'https://via.placeholder.com/800x400?text=Image+2',
@@ -35,12 +34,15 @@ const Country = () => {
 
           <div class="container relative z-40 mx-auto  py-12">
             <div class="flex flex-wrap justify-center mx-auto lg:w-full md:w-5/6 xl:shadow-small-blue">
-              <a href="/uk" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              <a
+                href="/uk"
+                class="block w-1/2 py-10 text-center border lg:w-1/4"
+              >
                 <div>
                   <img src={uk} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                     UK
+                    UK
                   </p>
                 </div>
               </a>
@@ -50,7 +52,7 @@ const Country = () => {
                   <img src={australia} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                     AUSTRALIA
+                    AUSTRALIA
                   </p>
                 </div>
               </a>
@@ -60,7 +62,7 @@ const Country = () => {
                   <img src={usa} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                     USA
+                    USA
                   </p>
                 </div>
               </a>
@@ -80,7 +82,7 @@ const Country = () => {
                   <img src={japan} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                      JAPAN
+                    DUBAI
                   </p>
                 </div>
               </a>
@@ -100,7 +102,7 @@ const Country = () => {
                   <img alt="" src={canada} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                      CANADA
+                    CANADA
                   </p>
                 </div>
               </a>
@@ -109,8 +111,8 @@ const Country = () => {
                   <img alt="" src={newzealand} class="block mx-auto w-20" />
 
                   <p class="pt-4 text-sm font-medium capitalize font-body text-white lg:text-lg md:text-base md:pt-6">
-                  {/* New Zealand */}
-                  NEW ZEALAND
+                    {/* New Zealand */}
+                    NEW ZEALAND
                   </p>
                 </div>
               </a>
@@ -166,7 +168,6 @@ const Country = () => {
           </p> */}
 
           {/* <div class="h-32 md:h-40 bg-red-400"></div> */}
- 
 
           {/* <div class="h-40"></div>
 
@@ -314,8 +315,7 @@ const Country = () => {
       </div>
     </div> */}
 
-
-{/* <div className="relative h-screen overflow-hidden">
+      {/* <div className="relative h-screen overflow-hidden">
     
       <div className="absolute inset-0 bg-cover bg-center bg-no-repeat transform scale-150 animation" style={{ backgroundImage: `url(${images[currentImage]})` }}></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white text-4xl font-bold">
@@ -327,14 +327,6 @@ const Country = () => {
       <button className="absolute top-1/2 left-4 transform -translate-y-1/2 px-4 py-2 bg-black bg-opacity-50 text-white rounded" onClick={prevImage}>Prev</button>
       <button className="absolute top-1/2 right-4 transform -translate-y-1/2 px-4 py-2 bg-black bg-opacity-50 text-white rounded" onClick={nextImage}>Next</button>
     </div> */}
-
-
-
-
-
-
-
-
     </div>
   );
 };
