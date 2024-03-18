@@ -1,10 +1,10 @@
-import React from "react";
-import "./About.css";
-const AboutLanding = () => {
-  return (
-    <div>
-      <div className="relative">
-        <div className="absolute about inset-0 overflow-hidden">
+import React from 'react';
+import "./Contact.css"
+const ContactLanding = () => {
+    return (
+        <div>
+             <div className="relative">
+        <div className="absolute contact inset-0 overflow-hidden">
           {/* Background image */}
           <img
             className="absolute   inset-0 w-full h-full object-cover"
@@ -28,13 +28,13 @@ const AboutLanding = () => {
           {/* Main content */}
           {/* <h1 className="text-4xl font-bold mb-4"> Welcome To United Kingdom </h1> */}
           <p className="text-4xl  px-6 font-bold mb-4">
-            ABOUT US
+            CONTACT US
           </p>
           {/* Image sections */}
         </div>
       </div>
-    </div>
-  );
+        </div>
+    );
 };
 
-export default AboutLanding;
+export default ContactLanding;
