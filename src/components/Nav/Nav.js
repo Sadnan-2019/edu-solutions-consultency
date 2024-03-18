@@ -101,7 +101,7 @@ const Nav = () => {
         CANADA
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          {/* <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
@@ -110,7 +110,7 @@ const Nav = () => {
             >
               NEW ZEALAND
             </NavLink>
-          </li>
+          </li> */}
           {/* <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
@@ -123,7 +123,7 @@ const Nav = () => {
           </li> */}
         </ul>
       </li>
-      <li className="nav-item p-2 	list-none">
+      {/* <li className="nav-item p-2 	list-none">
         <NavLink
           onClick={() => setIsOpen(false)}
           className={({ isActive }) => (isActive ? `${active}` : `${normal} `)}
@@ -131,7 +131,7 @@ const Nav = () => {
         >
           BLOG
         </NavLink>
-      </li>
+      </li> */}
 
       <li className="nav-item p-2 list-none	">
         <NavLink
