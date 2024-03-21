@@ -31,7 +31,7 @@ const Services = () => {
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
-              <div class="relative overflow-hidden bg-[#41ffc7]  shadow-[5px 5px #F4D847, 10px 10px #00625a30, 15px 15px #00625a20, 20px 20px #00625a10, 25px 25px #F4D847]
+              <div class="relative overflow-hidden bg-[#41ffc7]   
   	rounded-xl h-full">
                 <div class="p-9  ">
                   <img src={discussion} className="w-20 " alt="" />
@@ -46,7 +46,7 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div class="overflow-hidden bg-[#f69595] shadow-white	 shadow-2xl rounded-xl  *:">
+            <div class="overflow-hidden bg-[#f69595]   shadow-2xl rounded-xl  *:">
               <div class="p-9">
                 <img src={eligibility} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -58,7 +58,7 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#f4d847] shadow-white	 shadow-2xl rounded-xl">
+            <div class="overflow-hidden bg-[#f4d847]  	 shadow-2xl rounded-xl">
               <div class="p-9">
                 <img src={application} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -70,7 +70,7 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#e585ed] shadow-[#dd8276e9]		 shadow-2xl rounded-xl">
+            <div class="overflow-hidden bg-[#e585ed]  	 shadow-2xl rounded-xl">
               <div class="p-9">
                 <img src={scholarship} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -82,7 +82,7 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#04f571] shadow-[#101e17]	 shadow-2xl  rounded-xl">
+            <div class="overflow-hidden bg-[#04f571] 	 shadow-2xl  rounded-xl">
               <div class="p-9">
                 <img src={motel} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">

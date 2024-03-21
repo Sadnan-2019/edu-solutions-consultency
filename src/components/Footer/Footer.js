@@ -1,4 +1,5 @@
 import React from 'react';
+import WhatsApp from '../WhatsApp/WhatsApp';
 
 const Footer = () => {
     return (
@@ -114,9 +115,12 @@ const Footer = () => {
         <button class="px-4 py-2 bg-purple-800 hover:bg-purple-900 rounded text-white">Get Started</button>
       </div>
     </div>
-    
+    <WhatsApp></WhatsApp>
   </div>
+
 </footer>
+
+
         </div>
     );
 };
