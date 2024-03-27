@@ -61,7 +61,7 @@ const TopNav = () => {
             >
              
               <a
-                    href="/"
+                    href="https://www.facebook.com/EDUSLTD/"
                     rel="noreferrer"
                     target="_blank"
                     class="text-white transition hover:opacity-75"
@@ -137,11 +137,16 @@ const TopNav = () => {
               </div>
               <div>
                 <p className="text-[10px] lg:text-xs   	">
-                  <a href="tel:+01643-390832 " className="  	">
-                    01643-390832
+                  <a href="tel:+01333-388686 " className="  	">
+                  +880 1333-388686
                   </a>
                 </p>
-                <p className="text-[10px] lg:text-xs  	 	">01643-390832 </p>
+                <p className="text-[10px] lg:text-xs   	">
+                  <a href="tel:+01333-388585 " className="  	">
+                  +880 1333-388585
+                  </a>
+                </p>
+                {/* <p className="text-[10px] lg:text-xs  	 	">+880 1333-388585</p> */}
               </div>
             </div>
             <div

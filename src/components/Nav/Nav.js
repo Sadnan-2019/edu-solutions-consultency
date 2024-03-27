@@ -7,7 +7,7 @@ const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const gotoBtn = () => {
-    window.scrollTo({ top: 1200, left: 0, behavior: "smooth" });
+    window.scrollTo({ top: 2000, left: 0, behavior: "smooth" });
   };
 
   const active =
