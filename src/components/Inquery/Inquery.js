@@ -3,7 +3,7 @@ import React from "react";
 const Inquery = () => {
   return (
     <div className="bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-2 items-center justify-center mx-5">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-2 items-center justify-center px-8">
         <div>
           <form>
             <div
@@ -84,12 +84,12 @@ relative z-10"
                   />
                 </div>
                 <div class="relative">
-                  <a
-                    class="bg-gradient-to-r from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24]    w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white  
+                  <input
+                    class="bg-gradient-to-r btn  from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24]    w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white  
       rounded-lg transition duration-200 hover:bg-indigo-600 ease"
-                  >
-                    Submit
-                  </a>
+                  type="submit" value="Send Message"/>
+                     
+                  
                 </div>
               </div>
             </div>

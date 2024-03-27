@@ -28,20 +28,35 @@ const Contact = () => {
                         Our Address
                       </h3>
                       <p class="mt-1 text-gray-100">
-                        House 11, Road 108, Gulshan 2, Dhaka, Bangladesh. 1212
+                        House 11, Road 108, Gulshan 2, Dhaka, Bangladesh
                       </p>
                     </div>
                     <div class="border-t border-gray-200 px-6 py-4">
                       <h3 class="text-lg font-medium text-gray-100">Hours</h3>
                       <p class="mt-1 text-gray-100">
-                        Monday - Friday: 9am - 5pm
+                        Saturday: 09:00am - 06:00pm
                       </p>
-                      <p class="mt-1 text-gray-100">Saturday: 10am - 4pm</p>
-                      <p class="mt-1 text-gray-100">Sunday: Closed</p>
+                      <p class="mt-1 text-gray-100">
+                        Sunday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Monday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Tuesday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Wednesday: 09:00am - 06:00pm
+                      </p>
+                      <p class="mt-1 text-gray-100">
+                        Thursday: 09:00am - 06:00pm
+                      </p>
                     </div>
                     <div class="border-t border-gray-200 px-6 py-4">
                       <h3 class="text-lg font-medium text-gray-100">Contact</h3>
-                      <p class="mt-1 text-gray-100">Email: info@es.mrg.bd.com</p>
+                      <p class="mt-1 text-gray-100">
+                        Email: info@es.mrg.bd.com
+                      </p>
                       <p class="mt-1 text-gray-100">Phone: +880 1333-388585</p>
                       <p class="mt-1 text-gray-100">Phone: +880 1333-388686</p>
                     </div>
