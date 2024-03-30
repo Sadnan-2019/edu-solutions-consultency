@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from "../../assets/logo.jpeg";
+import logo from "../../assets/logo.png";
 import { Transition } from "@headlessui/react";
 
 const Nav = () => {

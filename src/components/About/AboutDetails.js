@@ -1,5 +1,5 @@
 import React from "react";
-import about1 from "../../assets/aboutelanding.jpeg"
+import about1 from "../../assets/aboutcontent.jpg"
 const AboutDetails = () => {
   return (
     <div>

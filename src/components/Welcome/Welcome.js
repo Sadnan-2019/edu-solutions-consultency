@@ -5,7 +5,7 @@ const Welcome = () => {
   const [currentSlideTwo, setCurrentSlide] = useState(0);
   return (
     <div className="bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
-      <div className="    hero-content flex-col lg:flex-row-reverse       ">
+      <div className="    hero-content flex-col lg:flex-row-reverse   mx-auto    ">
         <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
           <h2
             style={{ lineHeight: "120%" }}

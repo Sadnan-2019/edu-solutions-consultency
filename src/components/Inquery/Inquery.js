@@ -2,8 +2,8 @@ import React from "react";
 
 const Inquery = () => {
   return (
-    <div className="bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
-      <div className="grid sm:grid-cols-1 lg:grid-cols-2 gap-2 items-center justify-center px-8">
+    <div className=" bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
+      <div className="grid sm:grid-cols-1 lg:grid-cols-2   items-center justify-items-center px-8">
         <div>
           <form>
             <div
