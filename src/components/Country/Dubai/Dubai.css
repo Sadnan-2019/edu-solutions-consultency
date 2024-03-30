@@ -1,0 +1,26 @@
+.dubai{
+    background-image:linear-gradient(
+        to left,
+        rgba(33, 4, 11, 0.069),
+        rgba(26, 5, 34, 0.816)
+      ), url("../../../assets/dubailandscape.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 85%;
+  }
+
+  .why{
+
+
+    
+      border-radius: 1em 0 1em 0;
+      background-image: linear-gradient(
+        -100deg,
+        rgba(0, 20, 255, 0.2),
+        rgba(0, 20, 255, 0.7) 95%,
+        rgba(0, 20, 255, 0.1)
+      );
+     
+  }

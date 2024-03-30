@@ -47,7 +47,7 @@ const Country = () => {
                 </div>
               </a>
 
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              <a href="/australia" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={australia} class="block mx-auto w-20" />
 
@@ -57,7 +57,7 @@ const Country = () => {
                 </div>
               </a>
 
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              <a href="/usa" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img src={usa} class="block mx-auto w-20" />
 
@@ -97,7 +97,7 @@ const Country = () => {
                 </div>
               </a> */}
 
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              <a href="/canada" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img alt="" src={canada} class="block mx-auto w-20" />
 

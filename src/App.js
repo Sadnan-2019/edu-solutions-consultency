@@ -10,6 +10,7 @@ import Australia from "./components/Country/Australia/Australia.js";
 import USA from "./components/USA/USA.js";
 import Canada from "./components/Country/Canada/Canada.js";
 import ContactNav from "./components/Contact/ContactNav.js";
+import Dubai from "./components/Country/Dubai/Dubai.js";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
         <Route path="/australia" element={<Australia />}></Route>
         <Route path="/usa" element={<USA />}></Route>
         <Route path="/canada" element={<Canada />}></Route>
+        <Route path="/dubai" element={<Dubai/>}></Route>
         <Route path="/contact" element={<ContactNav />}></Route>
       </Routes>
       <Footer></Footer>

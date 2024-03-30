@@ -53,7 +53,7 @@ const Nav = () => {
       </li> */}
       <li className="dropdown dropdown-hover hover:border-none   nav-item p-2 list-none  text-white    ">
         <NavLink className="mx-1 text-white-600   font-bold   p-0 lg:text-blue-800">
-        DESTINATION
+          DESTINATION
         </NavLink>
 
         <ul
@@ -62,17 +62,19 @@ const Nav = () => {
           // style={{ backgroundColor: "#3E84DC" }}
         >
           <li className="nav-item p-2">
-            <NavLink onClick={() => setIsOpen(false)}
+            <NavLink
+              onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/uk"
             >
-             UK
+              UK
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink onClick={() => setIsOpen(false)}
+            <NavLink
+              onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
@@ -82,7 +84,8 @@ const Nav = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink onClick={() => setIsOpen(false)}
+            <NavLink
+              onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
@@ -92,25 +95,27 @@ const Nav = () => {
             </NavLink>
           </li>
           <li className="nav-item p-2">
-            <NavLink onClick={() => setIsOpen(false)}
+            <NavLink
+              onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
               to="/canada"
             >
-        CANADA
+              CANADA
             </NavLink>
           </li>
-          {/* <li className="nav-item p-2">
-            <NavLink onClick={() => setIsOpen(false)}
+          <li className="nav-item p-2">
+            <NavLink
+              onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
                 isActive ? `${dropactive}` : `${dropnormal}`
               }
-              to="/camellia"
+              to="/dubai"
             >
-              NEW ZEALAND
+              DUBAI{" "}
             </NavLink>
-          </li> */}
+          </li>
           {/* <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
