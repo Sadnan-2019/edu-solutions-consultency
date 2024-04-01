@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import InstitutionalDubai from './InstitutionalDubai';
-import EducationalCanada from '../Canada/EducationalCanada';
+// import EducationalCanada from '../Canada/EducationalCanada';
+import EducationalDubai from './EducationalDubai';
 
 const DubaiDetails = () => {
     const active =
@@ -100,7 +101,7 @@ const DubaiDetails = () => {
             {activeDiv === 2 && (
               <div className=" p-4 rounded">
                 {" "}
-               <EducationalCanada></EducationalCanada>
+               <EducationalDubai></EducationalDubai>
               </div>
             )}
           </div>
