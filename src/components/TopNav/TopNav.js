@@ -1,8 +1,8 @@
 import React from 'react';
 import university from "../../assets/university.png";
 import country from "../../assets/country.png";
-import call from "../../assets/call-center.gif";
-import email from "../../assets/email.gif";
+import call from "../../assets/telephone.png";
+import email from "../../assets/email.png";
  
 import video from "../../assets/video-call.png";
  
@@ -15,10 +15,10 @@ const TopNav = () => {
       {/* <div className="bg-gradient-to-r from-[#080C24]  via-[#4142FF] to-[#041B24] text-white "> */}
         <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12    items-center ">
           {/* <img  src={logo} className="w-24" alt="" /> */}
-          <div className="grid grid-cols-2 justify-center  p-1  items-center gap-2  ">
-            <div
+          <div className="grid grid-cols-1 justify-center  p-1  items-center gap-2  ">
+            {/* <div
               className="flex items-center font-bold   gap-2"
-              // style={{ color: "#92468E" }}
+               
             >
               <div className="">
                 <img className="w-7  " src={university} alt="" />
@@ -28,10 +28,10 @@ const TopNav = () => {
                   100+ Universities & Institution
                 </p>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="flex items-center font-bold   gap-2   "
-              // style={{ color: "#92468E" }}
+              
             >
               <div>
                 <img className="w-7" src={country} alt="" />
@@ -41,10 +41,10 @@ const TopNav = () => {
                 20+ Countries
                 </p>
               </div>
-            </div>
-            <div
+            </div> */}
+            {/* <div
               className="flex items-center font-bold   gap-2"
-              // style={{ color: "#92468E" }}
+             
             >
               <div className="">
                 <img className="w-7  " src={video} alt="" />
@@ -54,7 +54,7 @@ const TopNav = () => {
                Free Video Counselling
                 </p>
               </div>
-            </div>
+            </div> */}
             <div
               className="flex items-center font-bold   gap-2   "
               // style={{ color: "#92468E" }}
@@ -157,7 +157,7 @@ const TopNav = () => {
                 <img src={email} className="w-7 rounded-full" alt="" />
               </div>
               <div>
-                <p className="text-[10px] lg:text-xs     	">Email us</p>
+                {/* <p className="text-[10px] lg:text-xs     	">Email us</p> */}
                 {/* <p className="text-[10px] lg:text-xs	 	">info@mrs.mrg.com.bd</p> */}
                 <a
                   href="mailto:info@es.mrg.bd.com"
