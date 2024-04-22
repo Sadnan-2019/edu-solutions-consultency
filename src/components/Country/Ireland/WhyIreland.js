@@ -1,34 +1,29 @@
-import React from 'react';
+import React from "react";
 
 const WhyIreland = () => {
-    return (
-        <div>
-           <div class="relative p-4">
+  return (
+    <div>
+      <div class="relative p-4">
         <div class="max-w-3xl mx-auto">
           <div class="  bg-white rounded-b lg:rounded-b-none lg:rounded-r flex flex-col justify-between leading-normal">
             <div class="">
               <h1 href="#" class="text-gray-900 italic font-bold text-4xl">
-                Study in the Dubai
+                Study in Ireland
               </h1>
               <h1 href="#" class="text-gray-900 italic mt-2 font-bold text-2xl">
-                A Gateway to Excellence for Bangladeshi Students
+                Ireland has become a popular destination among international
+                students for several reasons
               </h1>
               <div class="py-5 text-sm font-regular text-gray-900 flex"></div>
               <hr />
+
+              <h3 class="text-2xl font-bold my-5">
+                1.High-Ranked Universities
+              </h3>
               <p class="text-base leading-8 my-5">
-                Embark on a Transformative Journey: Study in Dubai with Edu
-                Solutions. Welcome to Edu Solutions, your trusted partner for
-                studying abroad in the vibrant city of Dubai. With its blend of
-                modernity and tradition, Dubai offers a unique educational
-                experience unlike any other. Let us guide you through the
-                process and help you seize the countless opportunities that
-                await you in this dynamic city.
-              </p>
-              <h3 class="text-2xl font-bold my-5">1.World-Class Education</h3>
-              <p class="text-base leading-8 my-5">
-                Dubai is home to over 60 globally recognized international
-                university campuses, providing a wide range of academic programs
-                catering to diverse interests and career aspirations.
+                Ireland is home to prestigious universities, with six of them
+                ranking in the top 500 globally according to the QS World
+                University Rankings 202412.
               </p>
               {/* <blockquote class="text-md italic leading-8 my-5 p-5 text-indigo-600 font-semibold">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -36,61 +31,37 @@ const WhyIreland = () => {
                 text ever since the 1500s
               </blockquote> */}
 
-              <h3 class="text-2xl font-bold my-5 why">
-                2.Easily Transfer Your Credits
+              <h3 class="text-2xl font-bold my-5  ">
+                2.Post-Study Work Rights
               </h3>
-              <p class="text-base leading-8 my-5 why">
-                Studying in the UK offers a unique cultural experience, enabling
-                Bangladeshi students to embrace diversity, broaden their
-                horizons, and form global connections.
+              <p class="text-base leading-8 my-5  ">
+                After completing their studies, students can benefit from up to
+                2 years of post-study work rights in Ireland.
               </p>
-              <h3 class="text-2xl font-bold my-5">3.Cultural Diversity</h3>
+              <h3 class="text-2xl font-bold my-5">3.Best Student City</h3>
               <p class="text-base leading-8 my-5">
-                Experience the beauty of cultural diversity as you study
-                alongside students from around the globe. Dubai's multicultural
-                environment enriches your learning experience and broadens your
-                perspectives, preparing you for success in a globalized world.
+                Dublin, one of Ireland’s major cities, is ranked as one of the
+                best student cities in the world1.
               </p>
-              <h3 class="text-2xl font-bold my-5">#4.Gateway to Opportunity</h3>
+              <h3 class="text-2xl font-bold my-5">4.MNC Headquarters</h3>
               <p class="text-base leading-8 my-5">
-                As one of the fastest-growing cities in the world, Dubai offers
-                abundant opportunities for career advancement and personal
-                growth. From internships at multinational companies to
-                networking events with industry leaders, Dubai opens doors to a
-                world of possibilities.
+                 Many Fortune 500 companies have their
+                headquarters in Ireland, providing job opportunities.
               </p>
-              <h3 class="text-2xl font-bold my-5">5. Quality of Life</h3>
+              <h3 class="text-2xl font-bold my-5">5.Scholarships</h3>
               <p class="text-base leading-8 my-5">
-                Enjoy a high standard of living in Dubai, with its modern
-                infrastructure, world-class amenities, and safe environment.
-                Whether you're exploring the city's iconic landmarks or relaxing
-                on its pristine beaches, Dubai offers an unparalleled quality of
-                life for students.
+               Ireland offers attractive scholarships for eligible international students.
               </p>
-              <h3 class="text-2xl font-bold my-5">6.Post-Study Work Options</h3>
-              <p class="text-base leading-8 my-5">
-                Upon completing your studies, take advantage of Dubai's generous
-                post-study work permit, allowing you to gain valuable work
-                experience in one of the world's most dynamic economies.
-              </p>
+               
 
-              {/* <p className="text-base leading-8 my-5">
-                Explore the rich historical and cultural heritage of the UK,
-                offering a blend of tradition and modernity that adds a unique
-                dimension to your educational journey.
-              </p> */}
-              <h3 class="text-2xl italic font-bold my-5">
-                Don't miss out on the opportunity to study in one of the world's
-                most dynamic cities. Let Edu Solutions be your guide to success
-                in Dubai! Ensure you meet these academic prerequisites to pursue
-                your educational goals seamlessly.
-              </h3>
+            
+              
             </div>
           </div>
         </div>
-      </div> 
-        </div>
-    );
+      </div>
+    </div>
+  );
 };
 
 export default WhyIreland;
