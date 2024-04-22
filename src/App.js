@@ -11,6 +11,7 @@ import USA from "./components/USA/USA.js";
 import Canada from "./components/Country/Canada/Canada.js";
 import ContactNav from "./components/Contact/ContactNav.js";
 import Dubai from "./components/Country/Dubai/Dubai.js";
+import Ireland from "./components/Country/Ireland/Ireland.js";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
         <Route path="/usa" element={<USA />}></Route>
         <Route path="/canada" element={<Canada />}></Route>
         <Route path="/dubai" element={<Dubai/>}></Route>
+        <Route path="/ireland" element={<Ireland/>}></Route>
         <Route path="/contact" element={<ContactNav />}></Route>
       </Routes>
       <Footer></Footer>

@@ -16,10 +16,12 @@ const Contact = () => {
               <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div class="rounded-lg overflow-hidden">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11672.945750644447!2d-122.42107853750231!3d37.7730507907087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858070cc2fbd55%3A0xa71491d736f62d5c!2sGolden%20Gate%20Bridge!5e0!3m2!1sen!2sus!4v1619524992238!5m2!1sen!2sus"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29208.121392785157!2d90.38780877799982!3d23.782473983475644!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c75c7136c543%3A0x816aaaaf5ada10da!2sEDU%20Solutions%20LTD!5e0!3m2!1sen!2sbd!4v1713778708270!5m2!1sen!2sbd"
                     width="100%"
                     height="480"
                   ></iframe>
+
+                   
                 </div>
                 <div>
                   <div class="max-w-full mx-auto rounded-lg overflow-hidden">

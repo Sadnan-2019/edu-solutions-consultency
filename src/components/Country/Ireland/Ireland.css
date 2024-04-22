@@ -1,0 +1,12 @@
+.ireland{
+    background-image:linear-gradient(
+        to left,
+        rgba(33, 4, 11, 0.069),
+        rgba(26, 5, 34, 0.816)
+      ), url("../../../assets/irelandlanding.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 85%;
+  }
