@@ -53,7 +53,13 @@ const WhyIreland = () => {
                Ireland offers attractive scholarships for eligible international students.
               </p>
                
-
+              <h3 class="text-2xl font-bold my-5">5.Cost of Studying and Living</h3>
+              <p class="text-base leading-8 my-5">
+              The cost of studying in Ireland ranges from approximately €10,000 to €25,000.
+              </p>
+              <p class="text-base leading-8 my-5">
+              Living expenses may amount to around €10,000.
+              </p>
             
               
             </div>

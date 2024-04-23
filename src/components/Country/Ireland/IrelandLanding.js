@@ -28,10 +28,10 @@ const IrelandLanding = () => {
           {/* Main content */}
           <h1 className="text-4xl font-bold mb-4">
             {" "}
-            Welcome To Canada{" "}
+            Welcome To Ireland{" "}
           </h1>
           <p className="text-4xl font-bold mb-4">
-            Explore UK education opportunities from Bangladesh
+            Explore Ireland education opportunities from Bangladesh
           </p>
           {/* Image sections */}
         </div>
