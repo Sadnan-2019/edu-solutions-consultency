@@ -163,7 +163,7 @@ const TopNav = () => {
                   href="mailto:info@es.mrg.bd.com"
                   className="text-[10px] lg:text-xs  	"
                 >
-                  info@es.mrg.bd.com
+                  info@es.mrg.com.bd
                 </a>
               </div>
             </div>
