@@ -12,6 +12,7 @@ import Canada from "./components/Country/Canada/Canada.js";
 import ContactNav from "./components/Contact/ContactNav.js";
 import Dubai from "./components/Country/Dubai/Dubai.js";
 import Ireland from "./components/Country/Ireland/Ireland.js";
+import MessengerCustomerChat from "react-messenger-customer-chat";
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/contact" element={<ContactNav />}></Route>
       </Routes>
       <Footer></Footer>
+      <MessengerCustomerChat pageId="100358625178013" appId="2775069162650147" />
     </div>
   );
 }
