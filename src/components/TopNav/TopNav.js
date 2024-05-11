@@ -179,8 +179,13 @@ const TopNav = () => {
               <img src={email} alt="" className="w-5   " />
             </div>
             <div>
-              <p className="text-[10px] lg:text-xs     	">Email us</p>
-              <p className="text-[10px] lg:text-xs	 	">info@mrg.com.bd</p>
+               
+               <a
+                  href="mailto:info@es.mrg.bd.com"
+                  className="text-[10px] lg:text-xs  	"
+                >
+                   info@es.mrg.com.bd
+               </a>
             </div>
           </div>
           <div
