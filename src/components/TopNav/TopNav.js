@@ -102,7 +102,7 @@ const TopNav = () => {
     //             <img src={email} className="w-7 rounded-full" alt="" />
     //           </div>
     //           <div>
-                
+
     //             <a
     //               href="mailto:info@es.mrg.bd.com"
     //               className="text-[10px] lg:text-xs  	"
@@ -138,22 +138,21 @@ const TopNav = () => {
         <div>
           {/* <img  src={logo} className="w-20" alt="" /> */}
           <svg
-                   class="h-6 w-6 text-white"
-                   fill="currentColor"
-                 viewBox="0 0 24 24"
-                 aria-hidden="true"
-                >
-                  <path
-                    fill-rule="evenodd"
-                     d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-                    clip-rule="evenodd"
-                 />
-               </svg>
+            class="h-6 w-6 text-white"
+            fill="currentColor"
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+              clip-rule="evenodd"
+            />
+          </svg>
           {/* <img  src={logo} className="w-20" alt="" />
           <img  src={logo} className="w-20" alt="" /> */}
         </div>
         <div className="grid grid-cols-3 justify-items-center items-center gap-12  ">
-           
           <div
             className="flex items-center font-bold    gap-2"
             style={{ color: "white" }}
@@ -161,11 +160,15 @@ const TopNav = () => {
             <div>
               <img src={call} alt="" className="w-5      " />
             </div>
-            <div>
-              <p className="text-[10px] lg:text-xs   	">
-                01619848555  
-              </p>
-              <p className="text-[10px] lg:text-xs  	 	">01619848555  </p>
+            <div className=" ">
+               <a href="tel:+01333-388585 " className=" text-[10px] lg:text-xs 	">
+                 <p> +880 1333-388585  </p>
+              </a> 
+              <a href="tel:+01333-388686 " className=" text-[10px] lg:text-xs 	">
+             <p>
+             +880 1333-388686
+             </p>
+              </a> 
             </div>
           </div>
           <div
@@ -173,12 +176,10 @@ const TopNav = () => {
             style={{ color: "white" }}
           >
             <div>
-            <img src={email} alt="" className="w-5   " />
+              <img src={email} alt="" className="w-5   " />
             </div>
             <div>
-              <p className="text-[10px] lg:text-xs     	">
-                Email us
-              </p>
+              <p className="text-[10px] lg:text-xs     	">Email us</p>
               <p className="text-[10px] lg:text-xs	 	">info@mrg.com.bd</p>
             </div>
           </div>
@@ -187,15 +188,17 @@ const TopNav = () => {
             style={{ color: "white" }}
           >
             <div>
-            <p className="text-[5px] sm:m-4 lg:text-xs text-transparent  bg-clip-text bg-gradient-to-l from-[#FECD04] to-[#F2A04A]  	">
+              <p className="text-[5px] sm:m-4 lg:text-xs text-transparent  bg-clip-text bg-gradient-to-l from-[#FECD04] to-[#F2A04A]  	">
                 Link Organization
               </p>
             </div>
             <div>
-              
-              <a href="https://www.sub.ac.bd/" target="_blank" ><img src={sub} className="  w-40 lg:w-28  	" alt=""/></a>
-              <a href="https://schs.edu.bd/" target="_blank" ><img src={schs} className="   w-40 lg:w-28  	" alt=""/></a>
-               
+              <a href="https://www.sub.ac.bd/" target="_blank">
+                <img src={sub} className="  w-40 lg:w-28  	" alt="" />
+              </a>
+              <a href="https://schs.edu.bd/" target="_blank">
+                <img src={schs} className="   w-40 lg:w-28  	" alt="" />
+              </a>
             </div>
           </div>
         </div>
