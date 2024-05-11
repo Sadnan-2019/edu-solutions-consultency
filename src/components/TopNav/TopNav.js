@@ -1,6 +1,6 @@
 import React from "react";
 import university from "../../assets/university.png";
-import country from "../../assets/country.png";
+import linked from "../../assets/linkedin.png";
 import call from "../../assets/telephone.png";
 import email from "../../assets/email.png";
 import sub from "../../assets/sub.png";
@@ -135,22 +135,59 @@ const TopNav = () => {
     // </div>
     <div className=" ">
       <div className="flex   flex-col md:flex-row  justify-between px-10	 lx:px-12  bg-[#123261] items-center ">
-        <div>
+        <div className="flex justify-items-center items-center  gap-2">
           {/* <img  src={logo} className="w-20" alt="" /> */}
-          <svg
-            class="h-6 w-6 text-white"
-            fill="currentColor"
-            viewBox="0 0 24 24"
-            aria-hidden="true"
+          <a
+            href="https://www.facebook.com/edusolutionshomeandabroad/"
+            target="_blank"
           >
-            <path
-              fill-rule="evenodd"
-              d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
-              clip-rule="evenodd"
-            />
-          </svg>
-          {/* <img  src={logo} className="w-20" alt="" />
-          <img  src={logo} className="w-20" alt="" /> */}
+            <svg
+              class="h-6 w-6 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/edusolutionshomeandabroad/"
+            target="_blank"
+          >
+            <svg
+             
+              class="h-6 w-6 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path d="M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 8c0 .557-.447 1.008-1 1.008s-1-.45-1-1.008c0-.557.447-1.008 1-1.008s1 .452 1 1.008zm0 2h-2v6h2v-6zm3 0h-2v6h2v-2.861c0-1.722 2.002-1.881 2.002 0v2.861h1.998v-3.359c0-3.284-3.128-3.164-4-1.548v-1.093z" />
+            </svg>
+          </a>
+
+
+
+          <a
+            href="https://www.facebook.com/edusolutionshomeandabroad/"
+            target="_blank"
+          >
+            <svg
+              class="h-6 w-6 text-white"
+              fill="currentColor"
+              viewBox="0 0 24 24"
+              aria-hidden="true"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </a>
         </div>
         <div className="grid grid-cols-3 justify-items-center items-center gap-12  ">
           <div
@@ -161,14 +198,12 @@ const TopNav = () => {
               <img src={call} alt="" className="w-5      " />
             </div>
             <div className=" ">
-               <a href="tel:+01333-388585 " className=" text-[10px] lg:text-xs 	">
-                 <p> +880 1333-388585  </p>
-              </a> 
+              <a href="tel:+01333-388585 " className=" text-[10px] lg:text-xs 	">
+                <p> +880 1333-388585 </p>
+              </a>
               <a href="tel:+01333-388686 " className=" text-[10px] lg:text-xs 	">
-             <p>
-             +880 1333-388686
-             </p>
-              </a> 
+                <p>+880 1333-388686</p>
+              </a>
             </div>
           </div>
           <div
@@ -179,13 +214,12 @@ const TopNav = () => {
               <img src={email} alt="" className="w-5   " />
             </div>
             <div>
-               
-               <a
-                  href="mailto:info@es.mrg.bd.com"
-                  className="text-[10px] lg:text-xs  	"
-                >
-                   info@es.mrg.com.bd
-               </a>
+              <a
+                href="mailto:info@es.mrg.bd.com"
+                className="text-[10px] lg:text-xs  	"
+              >
+                info@es.mrg.com.bd
+              </a>
             </div>
           </div>
           <div
