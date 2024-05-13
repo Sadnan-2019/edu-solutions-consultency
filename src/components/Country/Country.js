@@ -9,21 +9,7 @@ import canada from "../../assets/canada.png";
 import china from "../../assets/china.png";
 import "./Country.css";
 const Country = () => {
-  // const images = [
-  //   'https://via.placeholder.com/800x400?text=Image+1',
-  //   'https://via.placeholder.com/800x400?text=Image+2',
-  //   'https://via.placeholder.com/800x400?text=Image+3',
-  // ];
-
-  // const [currentImage, setCurrentImage] = useState(0);
-
-  // const nextImage = () => {
-  //   setCurrentImage(currentImage === images.length - 1 ? 0 : currentImage + 1);
-  // };
-
-  // const prevImage = () => {
-  //   setCurrentImage(currentImage === 0 ? images.length - 1 : currentImage - 1);
-  // };
+   
   return (
     <div className="bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
       <body class=" ">
@@ -106,7 +92,7 @@ const Country = () => {
                   </p>
                 </div>
               </a>
-              <a href="#" class="block w-1/2 py-10 text-center border lg:w-1/4">
+              <a href="/ireland" class="block w-1/2 py-10 text-center border lg:w-1/4">
                 <div>
                   <img alt="" src={ireland} class="block mx-auto w-20" />
 

@@ -33,11 +33,10 @@ const Review = () => {
                 Words from Others
               </div> */}
             <h1 class="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
-              It's not just us.
+            Universites We Represent
+
             </h1>
-            <p class="text-xl text-gray-100 md:text-center md:text-2xl">
-              Here's what others have to say about us.
-            </p>
+            
           </div>
         </div>
         <Marquee gradientColor={false} speed={80} gradient={false}>
