@@ -1,5 +1,5 @@
 import React from "react";
-
+import photo from "../../assets/freecounselling.png"
 const Inquery = () => {
   return (
     <div className=" bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f]">
@@ -97,7 +97,7 @@ relative z-10"
         </div>
 
         <div className="slide-content sm:max-w-xs lg:max-w-xl text-left md:ml-8 lg:order-1 order-2   lg:mt-0 ">
-          <h2
+          {/* <h2
             style={{ lineHeight: "120%" }}
             className="animated slide-text text-[25px] lg:text-[40px] font-bold   text-left   text-transparent bg-clip-text bg-gradient-to-r from-gray-100 to-pink-600 "
           >
@@ -115,7 +115,9 @@ relative z-10"
             outcome. We eagerly anticipate welcoming students from across the
             globe to join EDU SOLUTIONS and assist them in preparing for their future
             achievements.
-          </h1>
+          </h1> */}
+
+          <img src={photo} />
         </div>
       </div>
     </div>

@@ -155,7 +155,7 @@ const TopNav = () => {
             </svg>
           </a>
           <a
-            href="https://www.facebook.com/edusolutionshomeandabroad/"
+            href="https://www.linkedin.com/company/edu-solutions-ltd/"
             target="_blank"
           >
             <svg
