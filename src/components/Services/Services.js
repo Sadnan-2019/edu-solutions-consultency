@@ -27,7 +27,9 @@ const Services = () => {
            
           </div>
           <div class="grid max-w-4xl lg:max-w-6xl grid-cols-1 mx-auto mt-8 text-center gap-y-4 sm:gap-x-8 sm:grid-cols-2 lg:grid-cols-3 sm:mt-12 lg:mt-20 sm:text-left">
-            <div class="relative">
+            <div  data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="relative">
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
@@ -38,15 +40,15 @@ const Services = () => {
                   <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
                     Free Counselling
                   </h3>
-                  {/* <p class="mt-6 text-base text-black">
-                    Our expert counselors, all graduates of UK Universities,USA
-                    Universities, offer complimentary counseling services to our
-                    students.
-                  </p> */}
+                   
                 </div>
               </div>
             </div>
-            <div class="overflow-hidden bg-[#f69595]   shadow-2xl rounded-xl  *:">
+
+
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#f69595]   shadow-2xl rounded-xl  *:">
               <div class="p-9">
                 <img src={eligibility} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -58,7 +60,9 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#f4d847]  	 shadow-2xl rounded-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#f4d847]  	 shadow-2xl rounded-xl">
               <div class="p-9">
                 <img src={application} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -70,7 +74,9 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#e585ed]  	 shadow-2xl rounded-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#e585ed]  	 shadow-2xl rounded-xl">
               <div class="p-9">
                 <img src={scholarship} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -82,7 +88,9 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#04f571] 	 shadow-2xl  rounded-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#04f571] 	 shadow-2xl  rounded-xl">
               <div class="p-9">
                 <img src={motel} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -91,7 +99,9 @@ const Services = () => {
                  
               </div>
             </div>
-            <div class="relative">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="relative">
               <div class="absolute -inset-1">
                 <div class="w-full h-full rotate-180 opacity-30 blur-lg filter bg-gradient-to-r from-yellow-400 via-pink-500 to-green-600"></div>
               </div>
@@ -111,7 +121,9 @@ const Services = () => {
       
            
             
-            <div class="overflow-hidden bg-[#c6dd06] shadow-md rounded-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#c6dd06] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={interview} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -124,7 +136,9 @@ const Services = () => {
               </div>
             </div>
 
-            <div class="overflow-hidden bg-[#fb2b75] shadow-md rounded-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#fb2b75] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={visa} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">
@@ -136,7 +150,9 @@ const Services = () => {
                 </p> */}
               </div>
             </div>
-            <div class="overflow-hidden bg-[#ff751a] shadow-md rounded-xl">
+            <div data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000" class="overflow-hidden bg-[#ff751a] shadow-md rounded-xl">
               <div class="p-9">
                 <img src={airticket} className="w-20" alt="" />
                 <h3 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-10">

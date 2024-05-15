@@ -10,11 +10,11 @@ const Inquery = () => {
               class="flex flex-col items-start justify-start p-8     rounded-xl
 relative z-10"
             >
-              <p class="w-full text-4xl font-medium text-center text-white leading-snug font-serif">
+              <p   class="w-full text-4xl fade-up font-medium text-center text-white leading-snug font-serif">
                 Free Consultation
               </p>
               <div class="w-full mt-6 mr-0 mb-0 ml-0 relative space-y-8">
-                <div class="relative">
+                <div data-aos="fade-up"    class="relative">
                   <p
                     class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100
       absolute"
@@ -24,12 +24,12 @@ relative z-10"
                   <input
                     placeholder="John"
                     type="text"
-                    class="border placeholder-gray-400 focus:outline-none
+                    class="border  placeholder-gray-400 focus:outline-none
       focus:border-black w-full pt-4 pr-4 pb-4 pl-4 mt-2 mr-0 mb-0 ml-0 text-base block bg-white
       border-gray-300 rounded-md"
                   />
                 </div>
-                <div class="relative">
+                <div data-aos="fade-up"    class="relative">
                   <p class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100 absolute">
                     Email
                   </p>
@@ -41,7 +41,7 @@ relative z-10"
       border-gray-300 rounded-md"
                   />
                 </div>
-                <div class="relative">
+                <div data-aos="fade-up"   class="relative">
                   <p class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100 absolute">
                     Phone Number
                   </p>
@@ -53,7 +53,7 @@ relative z-10"
       border-gray-300 rounded-md"
                   />
                 </div>
-                <div class="relative">
+                <div data-aos="fade-up"   class="relative">
                   <p
                     class=" pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100
       absolute"
@@ -68,7 +68,7 @@ relative z-10"
       border-gray-300 rounded-md"
                   />
                 </div>
-                <div class="relative">
+                <div data-aos="fade-up"   class="relative">
                   <p
                     class="  pt-0 pr-2 pb-0 pl-2 -mt-8 mr-0 mb-0 ml-2 font-medium text-gray-100
       absolute"
@@ -83,7 +83,7 @@ relative z-10"
       border-gray-300 rounded-md"
                   />
                 </div>
-                <div class="relative">
+                <div data-aos="fade-up"    class="relative">
                   <input
                     class="bg-gradient-to-r btn  from-[#080C24] via-[#3342BF] to-[#080C24] via-[#00395D] to-[#080C24]    w-full inline-block pt-4 pr-5 pb-4 pl-5 text-xl font-medium text-center text-white  
       rounded-lg transition duration-200 hover:bg-indigo-600 ease"
