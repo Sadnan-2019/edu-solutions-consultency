@@ -8,11 +8,13 @@ import Review from "../Review/Review";
 import Faq from "../Faq/Faq";
 import Contact from "../Contact/Contact";
 import Inquery from "../Inquery/Inquery";
+import Hero from "../Hero/Hero";
 
 const Home = () => {
   return (
     <div>
-      <Landing></Landing>
+      {/* <Landing></Landing> */}
+      <Hero></Hero>
       <Inquery></Inquery>
       <Welcome></Welcome>
       <Services></Services>
