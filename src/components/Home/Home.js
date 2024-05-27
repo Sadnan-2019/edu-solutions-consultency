@@ -13,7 +13,7 @@ import Hero from "../Hero/Hero";
 const Home = () => {
   return (
     <div>
-      {/* <Landing></Landing> */}
+      <Landing></Landing>
       <Hero></Hero>
       <Inquery></Inquery>
       <Welcome></Welcome>
