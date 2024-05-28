@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLayoutEffect, useRef } from "react"
 import gsap from "gsap"
+import "./Hero.css"
 const Hero = () => {
 
   const comp = useRef(null);
@@ -62,22 +63,26 @@ const Hero = () => {
     return () => ctx.revert();
   }, []);
     return (
-        <div>
-            <div className="relative" ref={comp}>
+        <div className='relative   full-width-slider'>
+            <div className="" ref={comp}>
       <div
         id="intro-slider"
-        className="h-screen p-10 bg-gray-50 absolute top-0 left-0 font-spaceGrotesk z-10 w-full flex flex-col gap-10 tracking-tight"
+        className="herotwo    text-white p-10    gap-10 tracking-tight"
       >
-        <h1 className="text-9xl" id="title-1">
+        <h1 className="text-5xl " id="title-1">
           Software Engineer
         </h1>
-        <h1 className="text-9xl" id="title-2">
+        <h1 className="text-5xl" id="title-2">
           Designer
         </h1>
-        <h1 className="text-9xl" id="title-3">
+        <h1 className="text-5xl" id="title-3">
           Freelancer
         </h1>
       </div>
+      
+
+    
+      
       <div className="h-screen flex bg-gray-950 justify-center place-items-center">
         <h1
           id="welcome"
