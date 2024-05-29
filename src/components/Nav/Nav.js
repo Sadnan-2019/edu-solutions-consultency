@@ -127,6 +127,17 @@ const Nav = () => {
               IRELAND
             </NavLink>
           </li>
+          <li className="nav-item p-2">
+            <NavLink
+              onClick={() => setIsOpen(false)}
+              className={({ isActive }) =>
+                isActive ? `${dropactive}` : `${dropnormal}`
+              }
+              to="/cyprus"
+            > 
+              CYPRUS
+            </NavLink>
+          </li>
           {/* <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>

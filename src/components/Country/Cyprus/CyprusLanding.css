@@ -1,0 +1,12 @@
+.cyprus{
+    background-image:linear-gradient(
+        to left,
+        rgba(17, 1, 5, 0.549),
+        rgba(66, 64, 66, 0.554)
+      ), url("../../../assets/cyprshlanding.jpg");
+    background-repeat: no-repeat;
+    height: auto;
+    width: 100%;
+    background-size: cover;
+    background-size: 100% 85%;
+  }

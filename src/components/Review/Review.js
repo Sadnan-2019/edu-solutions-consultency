@@ -17,8 +17,8 @@ import partner14 from "../../assets/partner/p14.png";
 import partner15 from "../../assets/partner/p15.png";
 // import partner16 from "../../assets/partner/p16.jpg";
 import partner17 from "../../assets/partner/p17.png";
-import partner18 from "../../assets/partner/p18.jpg";
-import partner19 from "../../assets/partner/p19.png";
+import partner19 from "../../assets/partner/p45.png";
+ 
 import partner20 from "../../assets/partner/p20.jpg";
 const Review = () => {
   return (
@@ -60,6 +60,11 @@ const Review = () => {
                   alt=""
                   class="h-32 w-52  p-2   rounded  "
                   src={partner20}
+                />
+                <img
+                  alt=""
+                  class="h-32 w-52  p-2   rounded  "
+                  src={partner19}
                 />
               </div>
             </div>

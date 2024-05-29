@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div>
       <Landing></Landing>
-      <Hero></Hero>
+      {/* <Hero></Hero> */}
       <Inquery></Inquery>
       <Welcome></Welcome>
       <Services></Services>

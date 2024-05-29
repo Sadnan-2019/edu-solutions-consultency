@@ -13,6 +13,7 @@ import ContactNav from "./components/Contact/ContactNav.js";
 import Dubai from "./components/Country/Dubai/Dubai.js";
 import Ireland from "./components/Country/Ireland/Ireland.js";
 import MessengerCustomerChat from "react-messenger-customer-chat";
+import Cyprus from "./components/Country/Cyprus/Cyprus.js";
  
 function App() {
    
@@ -33,6 +34,7 @@ function App() {
         <Route path="/canada" element={<Canada />}></Route>
         <Route path="/dubai" element={<Dubai/>}></Route>
         <Route path="/ireland" element={<Ireland/>}></Route>
+        <Route path="/cyprus" element={<Cyprus/>}></Route>
         <Route path="/contact" element={<ContactNav />}></Route>
       </Routes>
       <Footer></Footer>
