@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import FaWhatsapp from "../../assets/whatsapp (1).png";
+import messenger from "../../assets/messenger.png";
 import "./WhatsApp.css";
 const WhatsApp = () => {
+
+  const messengerLink = 'https://m.me/100358625178013';
   return (
+
+
     <div>
       <div>
         <div>
@@ -12,6 +17,21 @@ const WhatsApp = () => {
               className=" float-right w-12 top-btn   cursor-pointer"
             />
           </a>
+          {/* <a className="" target="_blank" href="https://m.me/100358625178013">
+            <img src={FaWhatsapp}
+            
+              className=" float-right w-12 top-btn   cursor-pointer"
+            />
+          </a> */}
+           <a target="_blank" 
+            className=" float-left w-12 top-btn-messenger   cursor-pointer"
+          onClick={() => window.location.href = messengerLink}
+          style={{
+            
+          }}
+        >
+          <img src={messenger} />
+        </a>
         </div>
       </div>
     </div>
