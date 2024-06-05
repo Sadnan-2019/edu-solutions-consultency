@@ -24,11 +24,9 @@ const WhatsApp = () => {
             />
           </a> */}
            <a target="_blank" 
-            className=" float-left w-12 top-btn-messenger   cursor-pointer"
+            className=" float-right w-12 top-btn-messenger   cursor-pointer"
           onClick={() => window.location.href = messengerLink}
-          style={{
-            
-          }}
+         
         >
           <img src={messenger} />
         </a>
