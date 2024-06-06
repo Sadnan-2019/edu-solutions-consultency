@@ -127,7 +127,7 @@ const Nav = () => {
               IRELAND
             </NavLink>
           </li>
-          <li className="nav-item p-2">
+          {/* <li className="nav-item p-2">
             <NavLink
               onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
@@ -137,7 +137,7 @@ const Nav = () => {
             > 
               CYPRUS
             </NavLink>
-          </li>
+          </li> */}
           {/* <li className="nav-item p-2">
             <NavLink onClick={() => setIsOpen(false)}
               className={({ isActive }) =>
