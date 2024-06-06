@@ -12,14 +12,12 @@ import Canada from "./components/Country/Canada/Canada.js";
 import ContactNav from "./components/Contact/ContactNav.js";
 import Dubai from "./components/Country/Dubai/Dubai.js";
 import Ireland from "./components/Country/Ireland/Ireland.js";
-import MessengerCustomerChat from "react-messenger-customer-chat";
 import Cyprus from "./components/Country/Cyprus/Cyprus.js";
- 
-function App() {
-   
+import { ToastContainer } from "react-toastify";
 
+function App() {
   return (
-    <div   className=" ">
+    <div className=" ">
       <TopNav></TopNav>
       <Nav></Nav>
 
@@ -32,13 +30,13 @@ function App() {
         <Route path="/australia" element={<Australia />}></Route>
         <Route path="/usa" element={<USA />}></Route>
         <Route path="/canada" element={<Canada />}></Route>
-        <Route path="/dubai" element={<Dubai/>}></Route>
-        <Route path="/ireland" element={<Ireland/>}></Route>
-        <Route path="/cyprus" element={<Cyprus/>}></Route>
+        <Route path="/dubai" element={<Dubai />}></Route>
+        <Route path="/ireland" element={<Ireland />}></Route>
+        <Route path="/cyprus" element={<Cyprus />}></Route>
         <Route path="/contact" element={<ContactNav />}></Route>
       </Routes>
       <Footer></Footer>
-      <MessengerCustomerChat pageId="100358625178013" appId="2775069162650147" />
+      <ToastContainer></ToastContainer>
     </div>
   );
 }

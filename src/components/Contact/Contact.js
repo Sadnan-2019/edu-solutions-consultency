@@ -1,12 +1,15 @@
-import React from "react";
+import React, { useRef } from "react";
 
 const Contact = () => {
+
+
+  
   return (
     <div>
       {/* <!-- component --> */}
       <div class="bg-gradient-to-r from-[#24348f] via-[#3342BF] to-[#080C24] via-[#098bdc] to-[#24348f] relative  ">
         <section class=" ">
-          <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:py-20 lg:px-8">
+          <div class="max-w-7xl mx-auto py-16 px-4 sm:px-6   lg:px-8">
             <div class="max-w-2xl lg:max-w-4xl mx-auto text-center">
               <h2 class="text-3xl font-extrabold text-gray-100">
                 Visit Our Location
