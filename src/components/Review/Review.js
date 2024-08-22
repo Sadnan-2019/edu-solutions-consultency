@@ -18,7 +18,7 @@ import partner15 from "../../assets/partner/p15.png";
 // import partner16 from "../../assets/partner/p16.jpg";
 import partner17 from "../../assets/partner/p17.png";
 import partner19 from "../../assets/partner/p45.png";
- 
+
 import partner20 from "../../assets/partner/p20.jpg";
 const Review = () => {
   return (
@@ -33,10 +33,10 @@ const Review = () => {
                 Words from Others
               </div> */}
             <h1 class="mb-5 text-3xl font-semibold text-white md:text-center md:text-5xl">
-            Universites We Represent
+              Universites We Represent
 
             </h1>
-            
+
           </div>
         </div>
         <Marquee gradientColor={false} speed={80} gradient={false}>
@@ -74,7 +74,7 @@ const Review = () => {
           gradientColor={false}
           speed={80}
           gradient={false}
-         
+
         >
           <div class=" ">
             {/* <Marquee   gradientColor={false} speed={80} gradient={false} play={true}> */}

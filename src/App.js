@@ -14,6 +14,7 @@ import Dubai from "./components/Country/Dubai/Dubai.js";
 import Ireland from "./components/Country/Ireland/Ireland.js";
 import Cyprus from "./components/Country/Cyprus/Cyprus.js";
 import { ToastContainer } from "react-toastify";
+import FourZeroFour from "./components/FourZeroFour/FourZeroFour.js";
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <Route path="/ireland" element={<Ireland />}></Route>
         <Route path="/cyprus" element={<Cyprus />}></Route>
         <Route path="/contact" element={<ContactNav />}></Route>
+        <Route path="/*" element={<FourZeroFour />} /> 
       </Routes>
       <Footer></Footer>
       <ToastContainer></ToastContainer>
